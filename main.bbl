@@ -1,0 +1,455 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{Eyespy}{inproceedings}{}{}
+      \name{author}{7}{}{%
+        {{hash=856c365cd43af035c199f6fe46e53ea0}{%
+           family={Bell},
+           familyi={B\bibinitperiod},
+           given={Marek},
+           giveni={M\bibinitperiod}}}%
+        {{hash=996eafec68c3eb42fa0544829d05ed21}{%
+           family={Reeves},
+           familyi={R\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod}}}%
+        {{hash=101c166e7a8f9df1ef151b72c78187fb}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Barry},
+           giveni={B\bibinitperiod}}}%
+        {{hash=e42c99846ef0b4bed7cd62994f1404f5}{%
+           family={Sherwood},
+           familyi={S\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c0610d434be901566b666c726e17e3f8}{%
+           family={MacMillan},
+           familyi={M\bibinitperiod},
+           given={Donny},
+           giveni={D\bibinitperiod}}}%
+        {{hash=62a5ea845a733d9c0ca9271da61a7f9c}{%
+           family={Ferguson},
+           familyi={F\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7cfeb1b7526de425f796a184cad6b2ca}{%
+           family={Chalmers},
+           familyi={C\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{7c796c0421ac6c9d11e4e8329a52f4b4}
+      \strng{fullhash}{a031df1c6d33d8293a640ef99addb958}
+      \strng{fullhashraw}{a031df1c6d33d8293a640ef99addb958}
+      \strng{bibnamehash}{7c796c0421ac6c9d11e4e8329a52f4b4}
+      \strng{authorbibnamehash}{7c796c0421ac6c9d11e4e8329a52f4b4}
+      \strng{authornamehash}{7c796c0421ac6c9d11e4e8329a52f4b4}
+      \strng{authorfullhash}{a031df1c6d33d8293a640ef99addb958}
+      \strng{authorfullhashraw}{a031df1c6d33d8293a640ef99addb958}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the SIGCHI conference on human factors in computing systems}
+      \field{title}{Eyespy: supporting navigation through play}
+      \field{year}{2009}
+      \field{pages}{123\bibrangedash 132}
+      \range{pages}{10}
+    \endentry
+    \entry{CYSMN}{article}{}{}
+      \name{author}{9}{}{%
+        {{hash=06031840851b586f6adedee530bbfcdd}{%
+           family={Benford},
+           familyi={B\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0af64ccbbe7e1858c16cc967a1cfe67a}{%
+           family={Anastasi},
+           familyi={A\bibinitperiod},
+           given={Rob},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e0c68805a369c85141b32b2b31fa5b5b}{%
+           family={Flintham},
+           familyi={F\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cae2f539329d9e9948843f1e8f9cf1aa}{%
+           family={Drozd},
+           familyi={D\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e7623982d171d5a7adbc5ef83a856f15}{%
+           family={Crabtree},
+           familyi={C\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod}}}%
+        {{hash=553a2dfdd297f2a8eab78673cd89d8ed}{%
+           family={Greenhalgh},
+           familyi={G\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=090d33510157698ebc2a2897d8f7f98d}{%
+           family={Tandavanitj},
+           familyi={T\bibinitperiod},
+           given={Nick},
+           giveni={N\bibinitperiod}}}%
+        {{hash=2d74202bb3f044c86b63873644336984}{%
+           family={Adams},
+           familyi={A\bibinitperiod},
+           given={Matt},
+           giveni={M\bibinitperiod}}}%
+        {{hash=99432dbb4ae26d80603d485a0ee2523a}{%
+           family={Row-Farr},
+           familyi={R\bibinithyphendelim F\bibinitperiod},
+           given={Ju},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{316d767c9cdc9f90ddc069ea24e66bae}
+      \strng{fullhash}{19097f09fc6b5a23756ed854701a021b}
+      \strng{fullhashraw}{19097f09fc6b5a23756ed854701a021b}
+      \strng{bibnamehash}{316d767c9cdc9f90ddc069ea24e66bae}
+      \strng{authorbibnamehash}{316d767c9cdc9f90ddc069ea24e66bae}
+      \strng{authornamehash}{316d767c9cdc9f90ddc069ea24e66bae}
+      \strng{authorfullhash}{19097f09fc6b5a23756ed854701a021b}
+      \strng{authorfullhashraw}{19097f09fc6b5a23756ed854701a021b}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Coping with uncertainty in a location-based game}
+      \field{year}{2003}
+    \endentry
+    \entry{BeReal}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=6aab977b4caff529e31610ef70cf385e}{%
+           family={BeReal},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{6aab977b4caff529e31610ef70cf385e}
+      \strng{fullhash}{6aab977b4caff529e31610ef70cf385e}
+      \strng{fullhashraw}{6aab977b4caff529e31610ef70cf385e}
+      \strng{bibnamehash}{6aab977b4caff529e31610ef70cf385e}
+      \strng{authorbibnamehash}{6aab977b4caff529e31610ef70cf385e}
+      \strng{authornamehash}{6aab977b4caff529e31610ef70cf385e}
+      \strng{authorfullhash}{6aab977b4caff529e31610ef70cf385e}
+      \strng{authorfullhashraw}{6aab977b4caff529e31610ef70cf385e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{journaltitle}{Home}
+      \verb{urlraw}
+      \verb https://bereal.com/
+      \endverb
+      \verb{url}
+      \verb https://bereal.com/
+      \endverb
+    \endentry
+    \entry{BerealTourism}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=7276d0641e2a730f615e88414ce6a286}{%
+           family={Bulchand-Gidumal},
+           familyi={B\bibinithyphendelim G\bibinitperiod},
+           given={Jacques},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{7276d0641e2a730f615e88414ce6a286}
+      \strng{fullhash}{7276d0641e2a730f615e88414ce6a286}
+      \strng{fullhashraw}{7276d0641e2a730f615e88414ce6a286}
+      \strng{bibnamehash}{7276d0641e2a730f615e88414ce6a286}
+      \strng{authorbibnamehash}{7276d0641e2a730f615e88414ce6a286}
+      \strng{authornamehash}{7276d0641e2a730f615e88414ce6a286}
+      \strng{authorfullhash}{7276d0641e2a730f615e88414ce6a286}
+      \strng{authorfullhashraw}{7276d0641e2a730f615e88414ce6a286}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Current Issues in Tourism}
+      \field{number}{1}
+      \field{title}{The case of BeReal and spontaneous online social networks and their impact on tourism: Research agenda}
+      \field{volume}{27}
+      \field{year}{2024}
+      \field{pages}{7\bibrangedash 11}
+      \range{pages}{5}
+    \endentry
+    \entry{Hyper}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=2b7074e8ec6efcee895356f6b68c07c3}{%
+           family={Hyper},
+           familyi={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{2b7074e8ec6efcee895356f6b68c07c3}
+      \strng{fullhash}{2b7074e8ec6efcee895356f6b68c07c3}
+      \strng{fullhashraw}{2b7074e8ec6efcee895356f6b68c07c3}
+      \strng{bibnamehash}{2b7074e8ec6efcee895356f6b68c07c3}
+      \strng{authorbibnamehash}{2b7074e8ec6efcee895356f6b68c07c3}
+      \strng{authornamehash}{2b7074e8ec6efcee895356f6b68c07c3}
+      \strng{authorfullhash}{2b7074e8ec6efcee895356f6b68c07c3}
+      \strng{authorfullhashraw}{2b7074e8ec6efcee895356f6b68c07c3}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{journaltitle}{Hyper}
+      \verb{urlraw}
+      \verb https://www.hyper-sq.com/
+      \endverb
+      \verb{url}
+      \verb https://www.hyper-sq.com/
+      \endverb
+    \endentry
+    \entry{Geocaching}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=21cee82d98b8340f1ada9a82c6a42cd1}{%
+           family={Neustaedter},
+           familyi={N\bibinitperiod},
+           given={Carman},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d40bbfaa08c4d334f7db220898692040}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Anthony},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e6de74463aea27b09f06c60a184fe9cd}{%
+           family={Judge},
+           familyi={J\bibinitperiod},
+           given={Tejinder\bibnamedelima K},
+           giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{74a025167bda3f94deb563bcf6751614}
+      \strng{fullhash}{74a025167bda3f94deb563bcf6751614}
+      \strng{fullhashraw}{74a025167bda3f94deb563bcf6751614}
+      \strng{bibnamehash}{74a025167bda3f94deb563bcf6751614}
+      \strng{authorbibnamehash}{74a025167bda3f94deb563bcf6751614}
+      \strng{authornamehash}{74a025167bda3f94deb563bcf6751614}
+      \strng{authorfullhash}{74a025167bda3f94deb563bcf6751614}
+      \strng{authorfullhashraw}{74a025167bda3f94deb563bcf6751614}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Personal and Ubiquitous Computing}
+      \field{number}{2}
+      \field{title}{Creating scalable location-based games: lessons from Geocaching}
+      \field{volume}{17}
+      \field{year}{2013}
+      \field{pages}{335\bibrangedash 349}
+      \range{pages}{15}
+    \endentry
+    \entry{Pokemon}{inproceedings}{}{}
+      \name{author}{6}{}{%
+        {{hash=200c2611a354cbcaf46a55650ddd0d4d}{%
+           family={Paavilainen},
+           familyi={P\bibinitperiod},
+           given={Janne},
+           giveni={J\bibinitperiod}}}%
+        {{hash=739ba7c8b07f7afef740fce9a78cb3ec}{%
+           family={Korhonen},
+           familyi={K\bibinitperiod},
+           given={Hannu},
+           giveni={H\bibinitperiod}}}%
+        {{hash=72984c9fdb8d5f27ac5776aa19cdb577}{%
+           family={Alha},
+           familyi={A\bibinitperiod},
+           given={Kati},
+           giveni={K\bibinitperiod}}}%
+        {{hash=1679e5176b59be4076bbd48d3978f722}{%
+           family={Stenros},
+           familyi={S\bibinitperiod},
+           given={Jaakko},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6e06a0c4dd44eda1bc04247478f4170e}{%
+           family={Koskinen},
+           familyi={K\bibinitperiod},
+           given={Elina},
+           giveni={E\bibinitperiod}}}%
+        {{hash=1ff6e75f51315eb2535189eac445c766}{%
+           family={Mayra},
+           familyi={M\bibinitperiod},
+           given={Frans},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{0798b0095b4353450120d390124e01d1}
+      \strng{fullhash}{4b96891be108b80f7a481d6fa5746501}
+      \strng{fullhashraw}{4b96891be108b80f7a481d6fa5746501}
+      \strng{bibnamehash}{0798b0095b4353450120d390124e01d1}
+      \strng{authorbibnamehash}{0798b0095b4353450120d390124e01d1}
+      \strng{authornamehash}{0798b0095b4353450120d390124e01d1}
+      \strng{authorfullhash}{4b96891be108b80f7a481d6fa5746501}
+      \strng{authorfullhashraw}{4b96891be108b80f7a481d6fa5746501}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2017 CHI conference on human factors in computing systems}
+      \field{title}{The Pokémon GO experience: A location-based augmented reality mobile game goes mainstream}
+      \field{year}{2017}
+      \field{pages}{2493\bibrangedash 2498}
+      \range{pages}{6}
+    \endentry
+    \entry{Viral}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=e72fbcc9675f166c83cd75d2c919e1fe}{%
+           family={Reichstein},
+           familyi={R\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=744748a05aa0810f985d41eb7ca9a1e6}{%
+           family={Brusch},
+           familyi={B\bibinitperiod},
+           given={Ines},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{2d0976e1484dd7cb167b683f407c3583}
+      \strng{fullhash}{2d0976e1484dd7cb167b683f407c3583}
+      \strng{fullhashraw}{2d0976e1484dd7cb167b683f407c3583}
+      \strng{bibnamehash}{2d0976e1484dd7cb167b683f407c3583}
+      \strng{authorbibnamehash}{2d0976e1484dd7cb167b683f407c3583}
+      \strng{authornamehash}{2d0976e1484dd7cb167b683f407c3583}
+      \strng{authorfullhash}{2d0976e1484dd7cb167b683f407c3583}
+      \strng{authorfullhashraw}{2d0976e1484dd7cb167b683f407c3583}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychology \& Marketing}
+      \field{number}{11}
+      \field{title}{The decision-making process in viral marketing—A review and suggestions for further research}
+      \field{volume}{36}
+      \field{year}{2019}
+      \field{pages}{1062\bibrangedash 1081}
+      \range{pages}{20}
+    \endentry
+    \entry{GeoTourism}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=d4d09371ffb79ea745f89809d6d5a5d5}{%
+           family={Skinner},
+           familyi={S\bibinitperiod},
+           given={Heather},
+           giveni={H\bibinitperiod}}}%
+        {{hash=9aaa13d27241b81584c221c5108461d8}{%
+           family={Sarpong},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=606fe7fab2db530b0e9efd8a9cab5ce8}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={Gareth\bibnamedelima RT},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Emerald Publishing Limited}%
+      }
+      \strng{namehash}{fe4ab243525a15d184065df672bfa8e8}
+      \strng{fullhash}{fe4ab243525a15d184065df672bfa8e8}
+      \strng{fullhashraw}{fe4ab243525a15d184065df672bfa8e8}
+      \strng{bibnamehash}{fe4ab243525a15d184065df672bfa8e8}
+      \strng{authorbibnamehash}{fe4ab243525a15d184065df672bfa8e8}
+      \strng{authornamehash}{fe4ab243525a15d184065df672bfa8e8}
+      \strng{authorfullhash}{fe4ab243525a15d184065df672bfa8e8}
+      \strng{authorfullhashraw}{fe4ab243525a15d184065df672bfa8e8}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of tourism futures}
+      \field{number}{1}
+      \field{title}{Meeting the needs of the Millennials and Generation Z: gamification in tourism through geocaching}
+      \field{volume}{4}
+      \field{year}{2018}
+      \field{pages}{93\bibrangedash 104}
+      \range{pages}{12}
+    \endentry
+    \entry{PokemonBelong}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=eadcf32a5d20de4b43550e88395f3536}{%
+           family={Vella},
+           familyi={V\bibinitperiod},
+           given={Kellie},
+           giveni={K\bibinitperiod}}}%
+        {{hash=2fc43e3d0810d31ef1843085ed53cdaa}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=adb9bdf8aa97067815e81a6d92f1b7d1}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Vanessa\bibnamedelimb Wan\bibnamedelima Sze},
+           giveni={V\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=4f502909c993c8297d3c0ac6b0af6ed0}{%
+           family={Davenport},
+           familyi={D\bibinitperiod},
+           given={Tracey},
+           giveni={T\bibinitperiod}}}%
+        {{hash=a26e1964e1127f6e610df0122961f80a}{%
+           family={Mitchell},
+           familyi={M\bibinitperiod},
+           given={Jo},
+           giveni={J\bibinitperiod}}}%
+        {{hash=391cc481c261bf0861cce1e8aeece128}{%
+           family={Klarkowski},
+           familyi={K\bibinitperiod},
+           given={Madison},
+           giveni={M\bibinitperiod}}}%
+        {{hash=049fc2fffd6e12ca9561bde512e0e9da}{%
+           family={Phillips},
+           familyi={P\bibinitperiod},
+           given={Cody},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications Sage CA: Los Angeles, CA}%
+      }
+      \strng{namehash}{fc09f28eeef9cfd6f0c57e824bf7f6be}
+      \strng{fullhash}{22fabeb22509d1b450b19104fe5d3be9}
+      \strng{fullhashraw}{22fabeb22509d1b450b19104fe5d3be9}
+      \strng{bibnamehash}{fc09f28eeef9cfd6f0c57e824bf7f6be}
+      \strng{authorbibnamehash}{fc09f28eeef9cfd6f0c57e824bf7f6be}
+      \strng{authornamehash}{fc09f28eeef9cfd6f0c57e824bf7f6be}
+      \strng{authorfullhash}{22fabeb22509d1b450b19104fe5d3be9}
+      \strng{authorfullhashraw}{22fabeb22509d1b450b19104fe5d3be9}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Games and Culture}
+      \field{number}{6}
+      \field{title}{A sense of belonging: Pokémon GO and social connectedness}
+      \field{volume}{14}
+      \field{year}{2019}
+      \field{pages}{583\bibrangedash 603}
+      \range{pages}{21}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
