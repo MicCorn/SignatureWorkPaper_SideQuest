@@ -50,7 +50,7 @@
 \newcommand{\authorname}{Michael Cornell}
 
 % Title (cannot exceed three lines)
-\newcommand{\thetitle}{SW PROJECT TITLE THAT EXTENDS OVER ONE LINE GOES IN INVERTED PYRAMID FORM}
+\newcommand{\thetitle}{SideQuest: Full-stack Development of a Novel Social Photo Application}
 
 % Date of submission with normal capitalization. Use the format January 29, 2022.
 \newcommand{\submissiondate}{March 8, 2026}
@@ -129,6 +129,12 @@ SideQuest is a full-stack location-based social photo application that turns map
 The application was implemented as a deployed iOS product using a modern mobile stack: a React Native client, cloud storage and authentication services, and a Node/Express plus MongoDB backend. Development followed an iterative user-centered process in which features were tested and refined through continuous feedback. The resulting system allows users to create Quests at real-world locations, upload photo responses, and rank submissions through both local and platform-wide matchups.
 
 Early deployment demonstrates real-world viability. Within three weeks of release, SideQuest reached approximately 30 daily active users, generated over 100 photo uploads, and recorded more than 1{,}000 votes. These results demonstrate that place-based challenge systems can support active participation and sustained engagement in a real-world social platform.
+
+\textbf{Keywords:} Full stack development; app development; iterative development; product design; systems design. 
+
+\textbf{Outcome:} A deployed App Store product that turns map locations into interactive photo challenges through place-based prompts, on-site submissions, structured voting, and scalable full-stack architecture.
+
+\textbf{Contribution:} A novel social platform design that combines exploration and challenge to transform map pins into situated creative participation rather than passive browsing.
 \vspace{2\bigskipamount}
 
 % Acknowledgements
@@ -198,13 +204,13 @@ Pokémon GO showed that this model could reach mass adoption. By distributing ob
 Taken together, these precedents suggest a clear design requirement. SideQuest should treat location as a gate and structure for participation, not as a passive coordinate on a map. Place should do more than tell users where something is; it should shape what they do there.
 
 \section{Challenge: Structured Participation Instead of Passive Scrolling}
-If location-based media clarifies the \textit{Explore} side of the problem, social platforms clarify the \textit{Challenge} side. Mainstream social media excels at distribution and social connection, but its feed logic often concentrates activity among a minority of creators while the majority primarily watches. Research on online interaction describes engagement as a two-stage process in which users first attend to content and only then decide whether to interact with it \cite{Viral}. Platforms optimized for views therefore make passive consumption easy and contribution comparatively rare.
+If location-based media clarifies the \textit{Explore} side of the problem, social platforms clarify the \textit{Challenge} side. Mainstream social media excels at distribution and social connection, but its feed logic often concentrates activity among a minority of creators while the majority primarily watches. Research on online interaction describes engagement as a two-stage process in which users first attend to content and only then decide whether to interact with it \cite{Viral}. Platforms optimized for views, such as Instagram or TikTok, make passive consumption easy and contribution comparatively rare.
 
 This limitation is especially relevant to place-based sharing. A photo posted to Instagram may communicate that a location is worth visiting, but the place itself remains secondary to the feed. The user encounters the content by scrolling, not by going anywhere. Mapping platforms have the opposite problem: they organize destinations well, but reduce meaningful places to fixed markers, ratings, and utilitarian descriptions. Together, feeds and maps cover sharing and navigation, yet neither turns place into a socially generative activity.
 
 BeReal offers a more useful precedent because it tries to interrupt passive consumption through constraints. Its once-per-day prompt and short response window encourage users to post immediately rather than curate heavily \cite{BeReal}. Research on spontaneous online social networks makes a similar point: time pressure and low-friction prompts can shift sharing toward more immediate participation \cite{BerealTourism}. However, BeReal is only weakly tied to place. It captures the user's context in the moment, but it does not make a specific location into a persistent site of interaction that others can revisit and reinterpret. For SideQuest, the lesson is that prompts can increase contribution, but prompts alone do not create situated exploration.
 
-Challenge structures and gamified feedback are useful because they give users a reason to respond instead of merely observe. Systems that use points, comparison, progression, or competition turn participation into a legible action rather than an optional afterthought. Research on gamified exploration similarly suggests that playful constraints can motivate users to engage with locations more actively \cite{GeoTourism}. The important implication for SideQuest is not tourism specifically, but that structure matters: when users are given a clear task, a bounded prompt, and some form of feedback, they are more likely to contribute.
+Challenge structures and gamified feedback are useful because they give users a reason to respond instead of merely observe. Systems that use points, comparison, progression, or competition turn participation into a legible action rather than an optional afterthought. Research on gamified exploration similarly suggests that playful constraints can motivate users to engage with locations more actively \cite{GeoTourism}. The important implication for SideQuest is that structure matters: when users are given a clear task, a bounded prompt, and some form of feedback, they are more likely to contribute.
 
 This leads to a second design requirement. If SideQuest is meant to resist passive scrolling, it cannot rely on unstructured posting. It needs prompts, submissions, and comparison mechanics that make participation the default behavior.
 
