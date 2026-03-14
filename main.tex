@@ -756,6 +756,8 @@ w = 0.1 + 0.2 \cdot \exp\!\left(\frac{-\ln(2)\cdot \mathrm{ageHours}}{\mathrm{ha
 
 with a half-life of 14 days. This gives newer pins more influence while preserving a nonzero floor for older pins.
 
+\clearpage
+
 \section{User Journey Figures}
 \label{sec:user-journey-figures}
 
@@ -849,5 +851,58 @@ with a half-life of 14 days. This gives newer pins more influence while preservi
 
 \caption{Screenshots for Steps 8--9 of the example user journey.}
 \end{figure}
+
+\clearpage
+
+\chapter*{Signature Work Narrative}
+
+
+This project comes from an overlap between programming, design, and thinking in systems. Building SideQuest required more than writing code. It required designing a system of user behavior, making technical trade-offs under constraints, and revising the product based on real use. That is why it works well as a Signature Work: it shows how ideas from different courses came together in one working system.
+
+\subsection*{COMPSCI 201: Programming and Data Structures}
+
+COMPSCI 201 made this project possible at the level of logic. Although SideQuest is written in JavaScript rather than Java, the most important transfer was not syntax but problem decomposition. The course taught me how to break a problem into parts, reason through control flow, and build working solutions. Those skills carried directly into this project.
+
+That transfer is visible throughout SideQuest. A feature that sounds simple, like creating a Quest tied to a physical place, actually depends on many smaller problems: representing the Quest in data, storing it in the backend, retrieving it efficiently, displaying it on the map, and linking later uploads and votes back to it. COMPSCI 201 gave me the mindset to approach systems like that without being overwhelmed by their scale.
+
+The course also shaped how I thought about data structures as practical tools. In my paper, I describe caches for profile and challenge data, an in-memory duel queue for staged voting pairs, and backend maps for vote tokens and hourly voting buckets. These are modern application features, but the underlying thinking is the same: deciding how information should be stored, how it should move, and what trade-offs are acceptable for responsiveness and simplicity.
+
+Finally, COMPSCI 201 gave me one of my first real exposures to collaborative software development in its BK projects. SideQuest depended heavily on GitHub, version control, debugging across two developers, and keeping changes organized, all things necessary in BK projects. The project changed constantly as we tested, revised, and rolled back features. COMPSCI 201 did not teach every advanced engineering practice I later used, but it first taught me how to think like someone building real software.
+
+\subsection*{INFOSCI 104: Digital Design}
+
+If COMPSCI 201 made SideQuest possible technically, INFOSCI 104 shaped it conceptually. This course taught me that design isn't just a coat of paint slapped on top of software. Design determines what users notice, what they understand, and what decisions they make inside an app.
+
+That perspective mattered because SideQuest is fundamentally about behavior. In my paper, I argue that modern social media often encourages passive consumption, while SideQuest is designed to encourage exploration, participation, and contribution. That framing comes directly out of ideas I developed in INFOSCI 104 about user-centered design, affordances, and the relationship between form and function.
+
+The course also taught me that iteration is part of good design. A design is rarely correct on the first attempt. That lesson became especially visible in the upload flow and the voting interface. In my paper, I describe how the upload interaction was redesigned, and how the voting mechanic went through several versions before users found it intuitive. INFOSCI 104 helped me see those revisions not as failures, but as evidence of a functioning design process.
+
+The course also gave me language for the broader conceptual ambition of the project. SideQuest is not just another social app; it explores a different social media logic. The app is built around place, challenge, and constrained creativity rather than endless scrolling and passive viewing. That idea appears clearly in my paper’s design principles, especially “creativity through constraint,” “participation over passive social media,” and “preserving discovery.”
+
+Finally, the course shaped how I think about aesthetics. In the paper I emphasize “less is more,” “clear affordances,” and an image-first interface. Those are not merely stylistic choices. They support the larger goal of making the app feel exploratory, playful, and legible. INFOSCI 104 helped me understand that visual simplicity and interaction clarity are part of how a product works, not just how it looks.
+
+\subsection*{COMPSCI 401: Cloud Computing}
+
+COMPSCI 401 shaped SideQuest at the level of system architecture. The course taught me that modern software is not just code on a laptop. It is infrastructure: APIs, containers, cloud services, deployment pipelines, and workflows that allow a product to run reliably beyond a local environment.
+
+That way of thinking directly informed SideQuest’s architecture. SideQuest is built with React Native and Expo, a Node/Express backend, MongoDB for structured data, Firebase for authentication and storage, and deployed through Google Cloud Run and Apple’s tooling. COMPSCI 401 helped me understand how those pieces fit together as one system rather than as disconnected technologies.
+
+One of the biggest takeaways from the course was containerization. Learning how Docker creates reproducible environments changed the way I thought about deployment. In SideQuest, that mindset informed the backend deployment strategy and made clear why a working product is not just something that runs on my laptop, but needs to be something that can be reliably built on any machine. This step was necessary as we moved towards CI/CD.
+
+The course also strengthened my understanding of client-server systems. SideQuest depends on constant communication between frontend and backend: loading Quests, uploading photos, recording votes, checking authentication, and retrieving profile data. COMPSCI 401 helped me think more clearly about how those responsibilities should be divided and why modular services matter for a project that keeps evolving.
+
+Just as important, the course gave me a better framework for agile development and rapid shipping. SideQuest followed a Scrum-inspired, one-week sprint cycle with repeated design, development, testing, deployment, and user feedback. COMPSCI 401 helped me see that process not as ad hoc improvisation, but as a recognizable and effective development model. It reinforced the idea that maintainability, deployment speed, and iteration are themselves part of the product.
+
+\subsection*{Capstone Outcomes and Future Goals}
+
+The capstone made this project concrete. Through it, I did not just describe an app idea. I built and refined a working full-stack mobile platform, documented its design philosophy, analyzed its architecture, and tested it through real user interaction. The result is not just a concept, but a functioning system shaped by technical decisions and repeated iteration.
+
+This project also clarified several future directions for me. First, it confirmed that I enjoy full-stack development, and that I like building products that users can actually touch and respond to.
+
+Second, it showed me that I am interested not only in engineering, but also in technical product development. I enjoy thinking about which features matter, how users interpret a system, and how product decisions shape behavior. This suggests that future work in software engineering, product development, or technical product management could fit me well.
+
+Finally, SideQuest strengthened my interest in startup-like environments. The project required generalist thinking, adaptability, and a willingness to keep moving when the path was uncertain. I found that energizing. The concept evolved through real use, the direction changed repeatedly in response to feedback, and progress often depended on learning whatever was missing in the moment. Building SideQuest showed me that I enjoy that kind of work.
+
+Ultimately, this project reflects what Signature Work is meant to demonstrate: not mastery of one discipline in isolation, but the ability to combine multiple forms of learning into one substantial piece of work. SideQuest brings together programming logic, human-centered design, and cloud-based systems thinking in a single project. More importantly, it shows how those areas can be combined to produce software that is not only functional, but meaningful.
 
 \end{document}

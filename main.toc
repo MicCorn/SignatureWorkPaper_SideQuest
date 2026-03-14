@@ -44,4 +44,4 @@
 \contentsline {chapter}{\numberline {A}Appendices}{32}{appendix.A}%
 \contentsline {section}{\numberline {A.1}Artifact Inventory}{32}{section.A.1}%
 \contentsline {section}{\numberline {A.2}Ranking and Selection Equations}{32}{section.A.2}%
-\contentsline {section}{\numberline {A.3}User Journey Figures}{33}{section.A.3}%
+\contentsline {section}{\numberline {A.3}User Journey Figures}{34}{section.A.3}%
