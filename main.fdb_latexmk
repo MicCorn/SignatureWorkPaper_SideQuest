@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber main"] 1773479286.26983 "main.bcf" "main.bbl" "main" 1773480411.4946 0
+["biber main"] 1773479286.26983 "main.bcf" "main.bbl" "main" 1773480489.8054 0
   "bibfile.bib" 1772755948 3387 5b8441f4a61fdcd2f2e1d688bb01ff57 ""
-  "main.bcf" 1773480411.3603 109760 de861479af9adbac57e7a1c9bde4edc5 "pdflatex"
+  "main.bcf" 1773480489.68011 109760 de861479af9adbac57e7a1c9bde4edc5 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1773480399.03399 "/Users/michaelcornell/Documents/School/Geode/Geode Documents/SignatureWorkPaper_SideQuest/main.tex" "main.pdf" "main" 1773480411.49489 0
-  "/Users/michaelcornell/Documents/School/Geode/Geode Documents/SignatureWorkPaper_SideQuest/main.tex" 1773480398.80208 62297 222bab845d2e6a84899d236effff43d9 ""
+["pdflatex"] 1773480477.73852 "/Users/michaelcornell/Documents/School/Geode/Geode Documents/SignatureWorkPaper_SideQuest/main.tex" "main.pdf" "main" 1773480489.80569 0
+  "/Users/michaelcornell/Documents/School/Geode/Geode Documents/SignatureWorkPaper_SideQuest/main.tex" 1773480456.54053 62265 ebb3e221ecf110290959b3e9bd284427 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1136768653 1536 02c06700a42be0f5a28664c7273f82e7 ""
@@ -234,12 +234,12 @@
   "init_profile.png" 1773465849.68215 208584 169164b1b7f749c46d1ab82db2ca9a2c ""
   "init_submit.png" 1773465849.66399 146165 8f000ee33729942ffb815701b13d27e1 ""
   "lock_notif.png" 1773398291 10975011 d8fe1ce1edb26c83ab7c47f2868420d7 ""
-  "main.aux" 1773480411.35465 27952 91e2cf8b9d749abaf0e6bddca8a7d808 "pdflatex"
+  "main.aux" 1773480489.67444 27952 0f9fc4eaa20b4890e9cb2d7ddb66b92d "pdflatex"
   "main.bbl" 1773479288.08549 17170 e64d7c878ae4e90c59fee632bb5f1e2f "biber main"
-  "main.lof" 1773480411.36116 1458 f81ad1a4182eee22d18de8c3d379aac8 "pdflatex"
-  "main.run.xml" 1773480411.36107 2343 6408a33b9083821670ba52acb9114879 "pdflatex"
-  "main.tex" 1773480398.80208 62297 222bab845d2e6a84899d236effff43d9 ""
-  "main.toc" 1773480411.36113 4022 b11b456c73fb1e749d8ca004d9a3efa9 "pdflatex"
+  "main.lof" 1773480489.68083 1458 f81ad1a4182eee22d18de8c3d379aac8 "pdflatex"
+  "main.run.xml" 1773480489.68074 2343 6408a33b9083821670ba52acb9114879 "pdflatex"
+  "main.tex" 1773480456.54053 62265 ebb3e221ecf110290959b3e9bd284427 ""
+  "main.toc" 1773480489.6808 4022 b11b456c73fb1e749d8ca004d9a3efa9 "pdflatex"
   "map_city.png" 1773372232 1906620 72f66391d6dc5892e6b6481a8389cf98 ""
   "mid_vote.PNG" 1773467362 6321739 6d433bd8c82fcc3377f9651d4bd46272 ""
   "post_private1.PNG" 1773466635 577053 ca01c95c7b238cfc7716cb6fc02386d9 ""

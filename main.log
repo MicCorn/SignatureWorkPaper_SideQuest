@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.1)  14 MAR 2026 18:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.1)  14 MAR 2026 18:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -932,7 +932,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.112 \end{titlepage}
+l.110 \end{titlepage}
                       [1] (./main.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -968,7 +968,7 @@ Chapter 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.180 
+l.178 
        [1
 
 
@@ -981,7 +981,7 @@ Chapter 3.
 <ux-flow.png, id=195, 1117.17375pt x 383.4325pt>
 File: ux-flow.png Graphic file (type png)
 <use ux-flow.png>
-Package pdftex.def Info: ux-flow.png  used on input line 252.
+Package pdftex.def Info: ux-flow.png  used on input line 250.
 (pdftex.def)             Requested size: 385.02547pt x 132.14394pt.
 [6
 
@@ -990,7 +990,7 @@ Chapter 4.
 <arch-diagram.png, id=216, 764.8575pt x 524.96124pt>
 File: arch-diagram.png Graphic file (type png)
 <use arch-diagram.png>
-Package pdftex.def Info: arch-diagram.png  used on input line 294.
+Package pdftex.def Info: arch-diagram.png  used on input line 292.
 (pdftex.def)             Requested size: 271.7835pt x 186.53476pt.
 [9
 
@@ -998,24 +998,24 @@ Package pdftex.def Info: arch-diagram.png  used on input line 294.
 <08_navigation_graph.pdf, id=223, 714.46121pt x 372.23567pt>
 File: 08_navigation_graph.pdf Graphic file (type pdf)
 <use 08_navigation_graph.pdf>
-Package pdftex.def Info: 08_navigation_graph.pdf  used on input line 313.
+Package pdftex.def Info: 08_navigation_graph.pdf  used on input line 311.
 (pdftex.def)             Requested size: 430.31812pt x 224.20078pt.
 <03_sequence_create_challenge.pdf, id=225, 456.32684pt x 363.42575pt>
 File: 03_sequence_create_challenge.pdf Graphic file (type pdf)
 <use 03_sequence_create_challenge.pdf>
-Package pdftex.def Info: 03_sequence_create_challenge.pdf  used on input line 334.
+Package pdftex.def Info: 03_sequence_create_challenge.pdf  used on input line 332.
 (pdftex.def)             Requested size: 407.66833pt x 324.67897pt.
  [10 <./08_navigation_graph.pdf>]
 <01_domain_data_model.pdf, id=267, 798.96992pt x 366.29346pt>
 File: 01_domain_data_model.pdf Graphic file (type pdf)
 <use 01_domain_data_model.pdf>
-Package pdftex.def Info: 01_domain_data_model.pdf  used on input line 350.
+Package pdftex.def Info: 01_domain_data_model.pdf  used on input line 348.
 (pdftex.def)             Requested size: 407.66833pt x 186.9022pt.
  [11 <./03_sequence_create_challenge.pdf>]
 <04_sequence_global_duel_vote_token.pdf, id=302, 470.553pt x 532.71924pt>
 File: 04_sequence_global_duel_vote_token.pdf Graphic file (type pdf)
 <use 04_sequence_global_duel_vote_token.pdf>
-Package pdftex.def Info: 04_sequence_global_duel_vote_token.pdf  used on input line 377.
+Package pdftex.def Info: 04_sequence_global_duel_vote_token.pdf  used on input line 375.
 (pdftex.def)             Requested size: 430.31812pt x 487.18945pt.
  [12 <./01_domain_data_model.pdf>] [13 <./04_sequence_global_duel_vote_token.pdf>] [14]
 Chapter 5.
@@ -1026,17 +1026,17 @@ Chapter 6.
 <init_map.png, id=388, 1210.5225pt x 2631.8325pt>
 File: init_map.png Graphic file (type png)
 <use init_map.png>
-Package pdftex.def Info: init_map.png  used on input line 509.
+Package pdftex.def Info: init_map.png  used on input line 507.
 (pdftex.def)             Requested size: 90.5922pt x 196.93718pt.
 <init_submit.png, id=389, 1210.5225pt x 2631.8325pt>
 File: init_submit.png Graphic file (type png)
 <use init_submit.png>
-Package pdftex.def Info: init_submit.png  used on input line 514.
+Package pdftex.def Info: init_submit.png  used on input line 512.
 (pdftex.def)             Requested size: 90.5922pt x 196.93718pt.
 <init_profile.png, id=390, 1210.5225pt x 2631.8325pt>
 File: init_profile.png Graphic file (type png)
 <use init_profile.png>
-Package pdftex.def Info: init_profile.png  used on input line 519.
+Package pdftex.def Info: init_profile.png  used on input line 517.
 (pdftex.def)             Requested size: 90.5922pt x 196.93718pt.
 [18
 
@@ -1044,60 +1044,60 @@ Package pdftex.def Info: init_profile.png  used on input line 519.
 <pre_upload.PNG, id=396, 1183.42125pt x 2565.585pt>
 File: pre_upload.PNG Graphic file (type png)
 <use pre_upload.PNG>
-Package pdftex.def Info: pre_upload.PNG  used on input line 538.
+Package pdftex.def Info: pre_upload.PNG  used on input line 536.
 (pdftex.def)             Requested size: 135.89174pt x 294.58588pt.
 <post_upload.PNG, id=397, 1183.42125pt x 2565.585pt>
 File: post_upload.PNG Graphic file (type png)
 <use post_upload.PNG>
-Package pdftex.def Info: post_upload.PNG  used on input line 543.
+Package pdftex.def Info: post_upload.PNG  used on input line 541.
 (pdftex.def)             Requested size: 135.89174pt x 294.58588pt.
 <pre_vote.PNG, id=398, 1183.42125pt x 2565.585pt>
 File: pre_vote.PNG Graphic file (type png)
 <use pre_vote.PNG>
-Package pdftex.def Info: pre_vote.PNG  used on input line 562.
+Package pdftex.def Info: pre_vote.PNG  used on input line 560.
 (pdftex.def)             Requested size: 135.89174pt x 294.58588pt.
 <mid_vote.PNG, id=399, 1183.42125pt x 2565.585pt>
 File: mid_vote.PNG Graphic file (type png)
 <use mid_vote.PNG>
-Package pdftex.def Info: mid_vote.PNG  used on input line 567.
+Package pdftex.def Info: mid_vote.PNG  used on input line 565.
 (pdftex.def)             Requested size: 135.89174pt x 294.58588pt.
 <post_vote.PNG, id=400, 1183.42125pt x 2565.585pt>
 File: post_vote.PNG Graphic file (type png)
 <use post_vote.PNG>
-Package pdftex.def Info: post_vote.PNG  used on input line 572.
+Package pdftex.def Info: post_vote.PNG  used on input line 570.
 (pdftex.def)             Requested size: 135.89174pt x 294.58588pt.
  [19 <./init_map.png> <./init_submit.png> <./init_profile.png>] [20 <./pre_upload.PNG> <./post_upload.PNG> <./pre_vote.PNG> <./mid_vote.PNG> <./post_vote.PNG>]
 <pre_private.PNG, id=414, 1183.42125pt x 2565.585pt>
 File: pre_private.PNG Graphic file (type png)
 <use pre_private.PNG>
-Package pdftex.def Info: pre_private.PNG  used on input line 593.
+Package pdftex.def Info: pre_private.PNG  used on input line 591.
 (pdftex.def)             Requested size: 135.89174pt x 294.58588pt.
 <post_private1.PNG, id=415, 1183.42125pt x 2565.585pt>
 File: post_private1.PNG Graphic file (type png)
 <use post_private1.PNG>
-Package pdftex.def Info: post_private1.PNG  used on input line 599.
+Package pdftex.def Info: post_private1.PNG  used on input line 597.
 (pdftex.def)             Requested size: 135.89174pt x 294.58588pt.
 <post_private2.PNG, id=416, 1183.42125pt x 2565.585pt>
 File: post_private2.PNG Graphic file (type png)
 <use post_private2.PNG>
-Package pdftex.def Info: post_private2.PNG  used on input line 605.
+Package pdftex.def Info: post_private2.PNG  used on input line 603.
 (pdftex.def)             Requested size: 135.89174pt x 294.58588pt.
  [21 <./pre_private.PNG> <./post_private1.PNG> <./post_private2.PNG>] [22]
 Chapter 7.
 <lock_notif.png, id=428, 587.19376pt x 1270.7475pt>
 File: lock_notif.png Graphic file (type png)
 <use lock_notif.png>
-Package pdftex.def Info: lock_notif.png  used on input line 643.
+Package pdftex.def Info: lock_notif.png  used on input line 641.
 (pdftex.def)             Requested size: 144.95303pt x 313.69174pt.
 <vote.png, id=429, 587.19376pt x 1270.7475pt>
 File: vote.png Graphic file (type png)
 <use vote.png>
-Package pdftex.def Info: vote.png  used on input line 650.
+Package pdftex.def Info: vote.png  used on input line 648.
 (pdftex.def)             Requested size: 144.95303pt x 313.69174pt.
 <vote_exhaust.png, id=430, 587.19376pt x 1270.7475pt>
 File: vote_exhaust.png Graphic file (type png)
 <use vote_exhaust.png>
-Package pdftex.def Info: vote_exhaust.png  used on input line 657.
+Package pdftex.def Info: vote_exhaust.png  used on input line 655.
 (pdftex.def)             Requested size: 144.95303pt x 313.69174pt.
 [23
 
@@ -1105,37 +1105,37 @@ Package pdftex.def Info: vote_exhaust.png  used on input line 657.
 <save_quest.png, id=445, 587.19376pt x 1270.7475pt>
 File: save_quest.png Graphic file (type png)
 <use save_quest.png>
-Package pdftex.def Info: save_quest.png  used on input line 680.
+Package pdftex.def Info: save_quest.png  used on input line 678.
 (pdftex.def)             Requested size: 144.95303pt x 313.69174pt.
 <create_city.png, id=446, 587.19376pt x 1270.7475pt>
 File: create_city.png Graphic file (type png)
 <use create_city.png>
-Package pdftex.def Info: create_city.png  used on input line 687.
+Package pdftex.def Info: create_city.png  used on input line 685.
 (pdftex.def)             Requested size: 144.95303pt x 313.69174pt.
 <map_city.png, id=447, 587.19376pt x 1270.7475pt>
 File: map_city.png Graphic file (type png)
 <use map_city.png>
-Package pdftex.def Info: map_city.png  used on input line 694.
+Package pdftex.def Info: map_city.png  used on input line 692.
 (pdftex.def)             Requested size: 144.95303pt x 313.69174pt.
 <empty_profile.png, id=452, 587.19376pt x 1270.7475pt>
 File: empty_profile.png Graphic file (type png)
 <use empty_profile.png>
-Package pdftex.def Info: empty_profile.png  used on input line 715.
+Package pdftex.def Info: empty_profile.png  used on input line 713.
 (pdftex.def)             Requested size: 181.18439pt x 392.0856pt.
 <edit_profile.png, id=453, 587.19376pt x 1270.7475pt>
 File: edit_profile.png Graphic file (type png)
 <use edit_profile.png>
-Package pdftex.def Info: edit_profile.png  used on input line 722.
+Package pdftex.def Info: edit_profile.png  used on input line 720.
 (pdftex.def)             Requested size: 181.18439pt x 392.0856pt.
 <share.png, id=455, 587.19376pt x 1270.7475pt>
 File: share.png Graphic file (type png)
 <use share.png>
-Package pdftex.def Info: share.png  used on input line 737.
+Package pdftex.def Info: share.png  used on input line 735.
 (pdftex.def)             Requested size: 181.18439pt x 392.0856pt.
 <friend.png, id=456, 587.19376pt x 1270.7475pt>
 File: friend.png Graphic file (type png)
 <use friend.png>
-Package pdftex.def Info: friend.png  used on input line 744.
+Package pdftex.def Info: friend.png  used on input line 742.
 (pdftex.def)             Requested size: 181.18439pt x 392.0856pt.
  [25 <./save_quest.png> <./create_city.png> <./map_city.png>] [26 <./empty_profile.png> <./edit_profile.png>] [27 <./share.png> <./friend.png>] [28] [29
 
@@ -1161,7 +1161,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  84i,13n,103p,1285b,1267s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on main.pdf (38 pages, 54907683 bytes).
+Output written on main.pdf (38 pages, 54907663 bytes).
 PDF statistics:
  724 PDF objects out of 1000 (max. 8388607)
  582 compressed objects within 6 object streams
