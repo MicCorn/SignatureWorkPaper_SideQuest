@@ -40,9 +40,7 @@
 \contentsline {section}{\numberline {7.1}Concept Statement}{23}{section.7.1}%
 \contentsline {section}{\numberline {7.2}What is Delivered}{23}{section.7.2}%
 \contentsline {section}{\numberline {7.3}Example User Journey}{23}{section.7.3}%
-\contentsline {chapter}{References}{29}{chapter*.20}%
+\contentsline {chapter}{References}{29}{chapter*.21}%
 \contentsline {chapter}{\numberline {A}Appendices}{30}{appendix.A}%
 \contentsline {section}{\numberline {A.1}Artifact Inventory}{30}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Additional Screenshots (Example)}{30}{section.A.2}%
-\contentsline {section}{\numberline {A.3}System Diagrams (Example)}{30}{section.A.3}%
-\contentsline {section}{\numberline {A.4}Ranking and Selection Equations}{30}{section.A.4}%
+\contentsline {section}{\numberline {A.2}Ranking and Selection Equations}{30}{section.A.2}%

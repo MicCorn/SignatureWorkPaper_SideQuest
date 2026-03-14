@@ -23,7 +23,6 @@
 \titleformat{\subsubsection}{\normalfont\sffamily\normalsize\bfseries}{\thesubsubsection}{1em}{}
 
 % --- Bibliography (CS-friendly + easy with .bib) ---
-% Numeric citations are common in CS. This is also the "least hassle" with biblatex.
 \usepackage[style=numeric-comp, url=false, doi=true, isbn=false]{biblatex}
 \addbibresource{bibfile.bib}
 
@@ -37,6 +36,7 @@
 \usepackage{calc}
 \usepackage{etoolbox}
 \usepackage{subcaption}
+\usepackage{wrapfig}
 \usepackage{tikz}
 \usetikzlibrary{arrows.meta, positioning, fit}
 \urlstyle{same}
@@ -50,7 +50,7 @@
 \newcommand{\authorname}{Michael Cornell}
 
 % Title (cannot exceed three lines)
-\newcommand{\thetitle}{SideQuest: Full-stack Development of a Novel Social Photo Application}
+\newcommand{\thetitle}{SideQuest: Full-stack Application Development of a Novel Social Photo Platform}
 
 % Date of submission with normal capitalization. Use the format January 29, 2022.
 \newcommand{\submissiondate}{March 8, 2026}
@@ -138,7 +138,10 @@ Early deployment demonstrates real-world viability. Within three weeks of releas
 % Acknowledgements
 \chapter*{Acknowledgements}
 \addcontentsline{toc}{chapter}{Acknowledgements}
-\instructions{Individuals and organizations who helped with the project and provided financing are thanked here. Do not include individual titles. You may include grant numbers and sponsors (SELF, SRS, SW Grants, etc.).}
+
+Firstly, I would like to thank my mentor, Jiang Long, for his invaluable guidance and support throughout the development of SideQuest. His expertise in software engineering helped shape the direction of the project from the very beginning. A huge thank you to my co-founder Colden Johnson for his help relentlessly forging forward with this project even when the path involved many animation glitches. Thanks to Teohan Blind for the name `SideQuest'. I also want to thank our Beta testers, namely Krishna Thiagarajan, Kailani Wang, Katherine Cornell, Thomas Boyle, Ethan Deal, Zoya Abbas, Mason Swayne, and many others.
+
+We also acknowledge the valuable work of the many open source tools that made this project possible, including React Native, Expo, Node.js, Express, MongoDB, Mongoose, Docker, Jest, and of course Git, without which this project would not have been possible.
 \newpage
 
 % List of Figures
@@ -161,12 +164,12 @@ Early deployment demonstrates real-world viability. Within three weeks of releas
 \label{ch:introduction}
 
 \section{Problem Statement}
- Modern social media platforms often encourage users to passively consume content instead of interacting with their environment. Passive consumption leads to sedintary lifestyles, dissasociates users from the environment they live in, and doesn't spark connection. Additionally, exisiting platforms like Google Maps reduce meaningful locations to simple pins. This project addresses that gap by designing a social platform that encourages users to explore locations and participate in challenges tied to real-world places.
+ Modern social media platforms often encourage users to passively consume content instead of interacting with their environment. Passive consumption leads to sedentary lifestyles, disassociates users from the environment they live in, and doesn't spark connection. Additionally, existing platforms like Google Maps reduce meaningful locations to simple pins. This project addresses that gap by designing a social platform that encourages users to explore locations and participate in challenges tied to real-world places.
 
 \section{Project Overview: What is SideQuest?}
 SideQuest is a social photo app built around real places. Instead of posting into a general feed, people create photo challenges tied to a spot on the map, called Quests. A Quest might be something like ``Show the most dramatic view of this bridge'' or ``Capture a photo with a mystical aura,'' along with a starter photo to set the tone. Other people can discover that Quest, go to the same location, and add their own version. This turns Quests from static map markers into living, community-built experiences.
 
-What makes it interesting is that SideQuest turns those places into ongoing creative competitions. If someone drops a Quest at the DKU water pavillion, for example, the app can show everyone else’s submissions from that same spot, let you open them full-screen, and then compare two entries side by side so people can vote on which one is stronger. It also runs broader matchups across the whole app, so a great photo taken for one Quest can end up competing against strong entries from completely different places. Over time, this gives photos, Quests, and users a clearer sense of progression and recognition within the community.
+What makes it interesting is that SideQuest turns those places into ongoing creative competitions. If someone drops a Quest at the DKU water pavilion, for example, the app can show everyone else’s submissions from that same spot, let you open them full-screen, and then compare two entries side by side so people can vote on which one is stronger. It also runs broader matchups across the whole app, so a great photo taken for one Quest can end up competing against strong entries from completely different places. Over time, this gives photos, Quests, and users a clearer sense of progression and recognition within the community.
 
 \section{Research Questions}
 \begin{enumerate}
@@ -239,10 +242,10 @@ Framed this way, SideQuest is not simply a location-based app or another social 
 \label{ch:design-philosophy}
 
 \section{Origin of the Concept}
-SideQuest began as a personal desire to share and mark meaningful places that were not easily discovered through conventional platforms. The original inspiration came when stumbling upon a beach in Qingdao, and being stunned that such a beatutiful place wasn't more widely known about. Posting on Google Maps would let people know about the spot, but reduce it to a location pin on a generic map. Instagram and BeReal offered ways to share the moment socially, but neither platform captured the place as something that future users could discover through exploration. This experience led to the idea of a digital marker for future adventurers that functioned more like a geocache: the reward was not seeing a post, but discovering the place for oneself. 
+SideQuest began as a personal desire to share and mark meaningful places that were not easily discovered through conventional platforms. The original inspiration came when stumbling upon a beach in Qingdao, and being stunned that such a beautiful place wasn't more widely known about. Posting on Google Maps would let people know about the spot, but reduce it to a location pin on a generic map. Instagram and BeReal offered ways to share the moment socially, but neither platform captured the place as something that future users could discover through exploration. This experience led to the idea of a digital marker for future adventurers that functioned more like a geocache: the reward was not seeing a post, but discovering the place for oneself. 
 
 \section{The Core Idea: Explore and Challenge}
-SideQuest combines two ideas that are often seperated in other apps: Exploration and Challenge. Exploration means that Quests are tied to physical locations, and the app encourges users to disscover these places for themselves through movement in the physical world. To encourage users, the map reveals the presence of a location, but the full experience only unlocks when users visit and participate for themselves. The second idea is Challenge: participation is strucutred through prompts, photo submissions, and user competiton through voting. Instead of unstructured posting, Quests turn map pins into creative prompts.
+SideQuest combines two ideas that are often separated in other apps: Exploration and Challenge. Exploration means that Quests are tied to physical locations, and the app encourages users to discover these places for themselves through movement in the physical world. To encourage users, the map reveals the presence of a location, but the full experience only unlocks when users visit and participate for themselves. The second idea is Challenge: participation is structured through prompts, photo submissions, and user competition through voting. Instead of unstructured posting, Quests turn map pins into creative prompts.
 
 % UX flow figure
 \begin{figure}[!htbp]
@@ -253,22 +256,22 @@ SideQuest combines two ideas that are often seperated in other apps: Exploration
 \end{figure}
 
 \section{Participation Over Passive Social Media}
-SideQuest was designed to encourage active participation rather than passive consumption. The app should make users feel curious about what is nearby and motivated to contribute something of their own. Voting has hourly caps to keep users from passivley swiping and encourage them to interact with their environment. Additionally, SideQuest uses pairwise comparisons instead of `likes'. The chess-inspired voting creates a more game-like interaction and helps surface strong submissions, all while avoiding the popularity dynamics of simple like/dislike systems. Importantly, SideQuest voting gives users a taste of what Quests are available on the platform without devolving into a toxic consumption loop. The experience should feel more like participating in a shared adventure than posting into a generic social feed.
+SideQuest was designed to encourage active participation rather than passive consumption. The app should make users feel curious about what is nearby and motivated to contribute something of their own. Voting has hourly caps to keep users from passively swiping and encourage them to interact with their environment. Additionally, SideQuest uses pairwise comparisons instead of `likes'. The chess-inspired voting creates a more game-like interaction and helps surface strong submissions, all while avoiding the popularity dynamics of simple like/dislike systems. Importantly, SideQuest voting gives users a taste of what Quests are available on the platform without devolving into a toxic consumption loop. The experience should feel more like participating in a shared adventure than posting into a generic social feed.
 
 \section{Preserving Discovery}
-Discovery is precious. It woudn't feel special if a user already knew everything about a place before they went there. SideQuest protects the experience of discovery by only showing map markers and challenge prompts until a user is physically present in the location themselves. This allows users to discover areas themselves, with SideQuest only providing a small hint. Similarly, some places are personally meaningful. SideQuest respects users' decisions about what to share, allowing private friend-only Quests.
+Discovery is precious. It wouldn't feel special if a user already knew everything about a place before they went there. SideQuest protects the experience of discovery by only showing map markers and challenge prompts until a user is physically present in the location themselves. This allows users to discover areas themselves, with SideQuest only providing a small hint. Similarly, some places are personally meaningful. SideQuest respects users' decisions about what to share, allowing private friend-only Quests.
 
 \section{Guiding Design Principles}
 There are five guiding design principles that inform the design of SideQuest.
 
 \subsection{Less is More}
-The user interface should emphasise the core loop and avoid unneccesary clutter. SideQuest is image-first and interaction-first, so the design should prioritize photos, maps, and gestures rather than long blocks of text.
+The user interface should emphasize the core loop and avoid unnecessary clutter. SideQuest is image-first and interaction-first, so the design should prioritize photos, maps, and gestures rather than long blocks of text.
 
 \subsection{Clear Affordances}
-The interface should singnal how it is meant to be used. Layered cards should feel swipeable. Map markers should feel tappable. Blocked/incomplete user actions should be clearly explained. Users should not have to guess what a screen is for or if their submission went through. 
+The interface should signal how it is meant to be used. Layered cards should feel swipeable. Map markers should feel tappable. Blocked/incomplete user actions should be clearly explained. Users should not have to guess what a screen is for or if their submission went through. 
 
 \subsection{Do Not Make the User Wait}
-One of the most important product goals is responsivness. Waiting breaks the feeling of exploration and play, so the app should avoid unnecesary delay wherever possible. This principle later justifises caching, prefetching, optimisitic uploads, and queued voting.
+One of the most important product goals is responsiveness. Waiting breaks the feeling of exploration and play, so the app should avoid unnecessary delay wherever possible. This principle later justifies caching, prefetching, optimistic uploads, and queued voting.
 
 \subsection{Creativity Through Constraint}
 Quests are structured rather than open-ended. This constraint is intentional. It gives users a prompt, makes places feel distinct, and creates a stronger basis
@@ -278,7 +281,7 @@ for competition rather than unstructured posting. Voting is capped to push users
 Rather than chase mass appeal from the beginning, SideQuest's design is tailored for a specific type of user who enjoys discovery, adventure, playful-sharing, and competition. The goal is not to become a universal social platform immediately, but to create an experience that feels memorable for the people it fits best.
 
 \section{Evolving the Concept Through User Behavior}
-Although the original model was one challenge, one location, mamy photos, user behavior showed that some kinds of participation did not fit neatly into a fully location-locked structure. Users wanted to post similar ideas from different places, compete with friends in different locations, and create broader thematic prompts. In response, SideQuest introduced non-location-locked Quests while keeping geo-locking as the default. This preserved the original emphasis on place-based discovery while allowing the system to support a wider range of social and creative use cases.
+Although the original model was one challenge, one location, many photos, user behavior showed that some kinds of participation did not fit neatly into a fully location-locked structure. Users wanted to post similar ideas from different places, compete with friends in different locations, and create broader thematic prompts. In response, SideQuest introduced non-location-locked Quests while keeping geo-locking as the default. This preserved the original emphasis on place-based discovery while allowing the system to support a wider range of social and creative use cases.
 
 % ============================================================================
 \chapter{System Architecture}
@@ -383,11 +386,11 @@ SideQuest uses two Elo scores per photo. Local Elo ranks submissions within a si
 
 Global duel selection is weighted rather than purely random. Some duels compare photos from the same Quest, preserving the meaning of the original prompt. Others draw from Elo-based visibility groups, which helps mix established and still-calibrating content. Quest-local matchups are also biased toward recent activity so newer Quests can enter circulation. Together, these rules balance freshness, fairness, and variety.
 
-Detailed equations for Elo ranking and duel selection can be found in Appednix~\ref{sec:ranking}.
+Detailed equations for Elo ranking and duel selection can be found in Appendix~\ref{sec:ranking}.
 
 \subsection*{Geographic Handling}
 
-A small region-specific mechanism affects map display in mainland China. When needed, stored coordinates are transformed before rendering so that map markers align with the local mapping standard. This logic is kept separate from the main content model so that the rest of the system remains unchanged.
+A small region-specific mechanism affects map display in mainland China. When needed, stored coordinates are transformed before rendering so that map markers align with the local mapping standard (GCJ-02). This logic is kept separate from the main content model so that the rest of the system remains unchanged.
 
 Taken together, these runtime mechanisms show the main architectural idea behind SideQuest: the client is optimized for responsiveness, but the server remains authoritative for competitive state. Cached reads, staged duels, and image prefetching make the app feel immediate, while server-side validation, matchmaking, and ranking keep the system consistent and fair.
 
@@ -401,6 +404,15 @@ SideQuest was developed through an iterative process that combined rapid prototy
 \section{Development Workflow}
 
 The development of SideQuest followed an Agile-inspired workflow focused on rapid iteration and experimentation. Agile development emphasizes building small pieces of functionality, testing them quickly, and adjusting the product based on feedback. This philosophy fit the goals of the project well, since many aspects of the app—such as voting mechanics, challenge structure, and user interaction patterns—could only be evaluated once real people began using the system.
+
+\begin{wrapfigure}{r}{0.38\textwidth}
+\vspace{-6pt}
+\centering
+\includegraphics[width=\linewidth,angle=-90]{feedback-wall.jpeg}
+\caption[User Feedback Backlog]{Screenshot of the user feedback backlog board.}
+\label{fig:feedback_backlog}
+\vspace{-6pt}
+\end{wrapfigure}
 
 Although the project did not formally implement Scrum, its workflow resembled a simplified version of that process. Development moved in roughly one‑week cycles that functioned like short sprints. At the beginning of each cycle, potential features and fixes were discussed and written onto a shared whiteboard backlog. These items were prioritized based on two factors: how much they would move the product closer to a functional and coherent experience, and how strongly they addressed feedback from users who had already tested the app.
 
@@ -541,7 +553,7 @@ For the rest of this chapter, the focus is on three features whose development b
 \includegraphics[width=\linewidth]{post_upload.PNG}
 \end{subfigure}
 
-\caption{Before and after for uploading a photo.}
+\caption{Screenshots showing the changes in the upload screen.}
 \label{fig:upload_before_after}
 \end{figure}
 
@@ -576,7 +588,7 @@ Voting is the feature that has gone through the most redesigns. When it was intr
 
 However, needing to display two 3:4 photos on a vertical display proved a design challenge. The first redesign placed each photo in a card, with one in front of the other. Users could swipe left and right to select a card, then swipe up to declare it the winner. The feedback for this redesign was highly negative. Users said that even the basic tapping mechanic was better, as it didn't require multiple movements to select a photo.
 
-The next redesign left the cards stacked on top of one another, but a swipe left or right would enlarge the card on that side to fill the whole screen. Releasing your finger at the end of the swipe would submit that photo as the winner, while leaving your finger on the display would let you keep looking at the photos. While this design allowed quick, one-movement voting, some users didn't even understand they were voting. Very few phone design elements require the finger to be pressed to the screen continuously to avoid submitting, and this movement was not intuitive to users as they just `swiped' to browse the photos just like in a photo gallary.
+The next redesign left the cards stacked on top of one another, but a swipe left or right would enlarge the card on that side to fill the whole screen. Releasing your finger at the end of the swipe would submit that photo as the winner, while leaving your finger on the display would let you keep looking at the photos. While this design allowed quick, one-movement voting, some users didn't even understand they were voting. Very few phone design elements require the finger to be pressed to the screen continuously to avoid submitting, and this movement was not intuitive to users as they just `swiped' to browse the photos just like in a photo gallery.
 
 The final redesign put the photos directly on top of one another, with a `VS' divider that changed the view from one to the other. When the user dragged the divider past the submission threshold it would change color. On submission, a header would flash letting the user know they had just submitted a vote. Although the swiping/submission behavior was the same as before, the design evoked a more familiar `before/after' comparison and there were more explicit cues to let users know what was happening. This time, users understood and appreciated the voting feature.
 
@@ -750,16 +762,12 @@ To invite a friend to join the platform, Kailani taps the Share Profile button. 
 Finally, Kailani opens the Friends tab to manage her social connections. She sees an incoming friend request from the person she just invited and accepts it (Fig.~\ref{fig:friend}). This enables them to view each other’s private Quests on the map.
 
 \section*{Conclusion}
-SideQuest is a full-stack application following a common development lifecycle from design and development, to deployment and testing. Promising active user numbers shortly after the app's release provide evidence that the app can suceed at scale. Going forward, features will continue to be built out iterativley using user feedback, with the goal of builing out a userbase of users that delight in the app.
+SideQuest is a full-stack application following a common development lifecycle from design and development, to deployment and testing. Promising active user numbers shortly after the app's release provide evidence that the app can succeed at scale. Going forward, features will continue to be built out iteratively using user feedback, with the goal of building out a userbase of users that delight in the app.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter*{References}
 \label{references}
 \addcontentsline{toc}{chapter}{References}
-
-% Example: citations used above (these two exist in bibfile.bib)
-% \cite{Zhang2021}
-% \cite{Axler2020}
 
 \printbibliography[heading=none]
 
@@ -782,15 +790,10 @@ SideQuest is a full-stack application following a common development lifecycle f
   \href{https://github.com/ColdenJohnson/geoapp}{Frontend repository}, \\ Backend repository (private GitHub repository)
   \item Deployed Backend (Docker container on Google Cloud Run): \\
   \href{https://geode-backend-834952308922.us-central1.run.app/}{Backend service endpoint (only accessible through SideQuest)}
+  \item LaTex source for this paper \href{https://github.com/MicCorn/SignatureWorkPaper_SideQuest}{Source repository}
   \item Screenshots of App State
   \item Diagrams of database, tech stack, development workflow, etc.
 \end{itemize}
-
-\section{Additional Screenshots (Example)}
-Put overflow UI screens, edge cases, and iterations here.
-
-\section{System Diagrams (Example)}
-Put full-resolution architecture diagrams here.
 
 \section{Ranking and Selection Equations}
 \label{sec:ranking}

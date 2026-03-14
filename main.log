@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.1)  14 MAR 2026 18:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.1)  14 MAR 2026 21:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -619,12 +619,19 @@ Package caption Info: New subtype `subfigure' on input line 238.
 \c@subfigure=\count459
 Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count460
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen260
+\WF@size=\dimen261
+\c@WF@wrappedlines=\count461
+\WF@box=\box64
+\WF@everypar=\toks29
+Package: wrapfig 2003/01/31  v 3.6
 ) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks29
-\pgfutil@tempdima=\dimen260
-\pgfutil@tempdimb=\dimen261
+\pgfutil@everybye=\toks30
+\pgfutil@tempdima=\dimen262
+\pgfutil@tempdimb=\dimen263
 ) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box64
+\pgfutil@abb=\box65
 ) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
 ))
@@ -632,31 +639,31 @@ Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
  (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
  (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks30
-\pgfkeys@temptoks=\toks31
+\pgfkeys@pathtoks=\toks31
+\pgfkeys@temptoks=\toks32
  (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks32
+\pgfkeys@tmptoks=\toks33
 ))
-\pgf@x=\dimen262
-\pgf@y=\dimen263
-\pgf@xa=\dimen264
-\pgf@ya=\dimen265
-\pgf@xb=\dimen266
-\pgf@yb=\dimen267
-\pgf@xc=\dimen268
-\pgf@yc=\dimen269
-\pgf@xd=\dimen270
-\pgf@yd=\dimen271
+\pgf@x=\dimen264
+\pgf@y=\dimen265
+\pgf@xa=\dimen266
+\pgf@ya=\dimen267
+\pgf@xb=\dimen268
+\pgf@yb=\dimen269
+\pgf@xc=\dimen270
+\pgf@yc=\dimen271
+\pgf@xd=\dimen272
+\pgf@yd=\dimen273
 \w@pgf@writea=\write4
 \r@pgf@reada=\read3
-\c@pgf@counta=\count461
-\c@pgf@countb=\count462
-\c@pgf@countc=\count463
-\c@pgf@countd=\count464
-\t@pgf@toka=\toks33
-\t@pgf@tokb=\toks34
-\t@pgf@tokc=\toks35
-\pgf@sys@id@count=\count465
+\c@pgf@counta=\count462
+\c@pgf@countb=\count463
+\c@pgf@countc=\count464
+\c@pgf@countd=\count465
+\t@pgf@toka=\toks34
+\t@pgf@tokb=\toks35
+\t@pgf@tokc=\toks36
+\pgf@sys@id@count=\count466
  (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
 )
@@ -667,59 +674,59 @@ File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
 File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
 ))) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfsyssoftpath@smallbuffer@items=\count466
-\pgfsyssoftpath@bigbuffer@items=\count467
+\pgfsyssoftpath@smallbuffer@items=\count467
+\pgfsyssoftpath@bigbuffer@items=\count468
 ) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
  (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen272
-\pgfmath@count=\count468
-\pgfmath@box=\box65
-\pgfmath@toks=\toks36
-\pgfmath@stack@operand=\toks37
-\pgfmath@stack@operation=\toks38
+\pgfmath@dimen=\dimen274
+\pgfmath@count=\count469
+\pgfmath@box=\box66
+\pgfmath@toks=\toks37
+\pgfmath@stack@operand=\toks38
+\pgfmath@stack@operation=\toks39
 ) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count469
+\c@pgfmathroundto@lastzeros=\count470
 )) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@picminx=\dimen273
-\pgf@picmaxx=\dimen274
-\pgf@picminy=\dimen275
-\pgf@picmaxy=\dimen276
-\pgf@pathminx=\dimen277
-\pgf@pathmaxx=\dimen278
-\pgf@pathminy=\dimen279
-\pgf@pathmaxy=\dimen280
-\pgf@xx=\dimen281
-\pgf@xy=\dimen282
-\pgf@yx=\dimen283
-\pgf@yy=\dimen284
-\pgf@zx=\dimen285
-\pgf@zy=\dimen286
+\pgf@picminx=\dimen275
+\pgf@picmaxx=\dimen276
+\pgf@picminy=\dimen277
+\pgf@picmaxy=\dimen278
+\pgf@pathminx=\dimen279
+\pgf@pathmaxx=\dimen280
+\pgf@pathminy=\dimen281
+\pgf@pathmaxy=\dimen282
+\pgf@xx=\dimen283
+\pgf@xy=\dimen284
+\pgf@yx=\dimen285
+\pgf@yy=\dimen286
+\pgf@zx=\dimen287
+\pgf@zy=\dimen288
 ) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@path@lastx=\dimen287
-\pgf@path@lasty=\dimen288
+\pgf@path@lastx=\dimen289
+\pgf@path@lasty=\dimen290
 ) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@shorten@end@additional=\dimen289
-\pgf@shorten@start@additional=\dimen290
+\pgf@shorten@end@additional=\dimen291
+\pgf@shorten@start@additional=\dimen292
 ) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfpic=\box66
-\pgf@hbox=\box67
-\pgf@layerbox@main=\box68
-\pgf@picture@serial@count=\count470
+\pgfpic=\box67
+\pgf@hbox=\box68
+\pgf@layerbox@main=\box69
+\pgf@picture@serial@count=\count471
 ) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgflinewidth=\dimen291
+\pgflinewidth=\dimen293
 ) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@pt@x=\dimen292
-\pgf@pt@y=\dimen293
-\pgf@pt@temp=\dimen294
+\pgf@pt@x=\dimen294
+\pgf@pt@y=\dimen295
+\pgf@pt@temp=\dimen296
 ) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
@@ -728,17 +735,17 @@ File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfarrowsep=\dimen295
+\pgfarrowsep=\dimen297
 ) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@max=\dimen296
-\pgf@sys@shading@range@num=\count471
-\pgf@shadingcount=\count472
+\pgf@max=\dimen298
+\pgf@sys@shading@range@num=\count472
+\pgf@shadingcount=\count473
 ) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfexternal@startupbox=\box69
+\pgfexternal@startupbox=\box70
 ) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
@@ -749,66 +756,66 @@ File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ))) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfnodeparttextbox=\box70
+\pgfnodeparttextbox=\box71
 ) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@nodesepstart=\dimen297
-\pgf@nodesepend=\dimen298
+\pgf@nodesepstart=\dimen299
+\pgf@nodesepend=\dimen300
 ) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
 )) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
-\pgffor@iter=\dimen299
-\pgffor@skip=\dimen300
-\pgffor@stack=\toks39
-\pgffor@toks=\toks40
+\pgffor@iter=\dimen301
+\pgffor@skip=\dimen302
+\pgffor@stack=\toks40
+\pgffor@toks=\toks41
 )) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
  (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@plot@mark@count=\count473
-\pgfplotmarksize=\dimen301
+\pgf@plot@mark@count=\count474
+\pgfplotmarksize=\dimen303
 )
-\tikz@lastx=\dimen302
-\tikz@lasty=\dimen303
-\tikz@lastxsaved=\dimen304
-\tikz@lastysaved=\dimen305
-\tikz@lastmovetox=\dimen306
-\tikz@lastmovetoy=\dimen307
-\tikzleveldistance=\dimen308
-\tikzsiblingdistance=\dimen309
-\tikz@figbox=\box71
-\tikz@figbox@bg=\box72
-\tikz@tempbox=\box73
-\tikz@tempbox@bg=\box74
-\tikztreelevel=\count474
-\tikznumberofchildren=\count475
-\tikznumberofcurrentchild=\count476
-\tikz@fig@count=\count477
+\tikz@lastx=\dimen304
+\tikz@lasty=\dimen305
+\tikz@lastxsaved=\dimen306
+\tikz@lastysaved=\dimen307
+\tikz@lastmovetox=\dimen308
+\tikz@lastmovetoy=\dimen309
+\tikzleveldistance=\dimen310
+\tikzsiblingdistance=\dimen311
+\tikz@figbox=\box72
+\tikz@figbox@bg=\box73
+\tikz@tempbox=\box74
+\tikz@tempbox@bg=\box75
+\tikztreelevel=\count475
+\tikznumberofchildren=\count476
+\tikznumberofcurrentchild=\count477
+\tikz@fig@count=\count478
  (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfmatrixcurrentrow=\count478
-\pgfmatrixcurrentcolumn=\count479
-\pgf@matrix@numberofcolumns=\count480
+\pgfmatrixcurrentrow=\count479
+\pgfmatrixcurrentcolumn=\count480
+\pgf@matrix@numberofcolumns=\count481
 )
-\tikz@expandcount=\count481
+\tikz@expandcount=\count482
  (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ))) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfarrowinset=\dimen310
-\pgfarrowlength=\dimen311
-\pgfarrowwidth=\dimen312
-\pgfarrowlinewidth=\dimen313
+\pgfarrowinset=\dimen312
+\pgfarrowlength=\dimen313
+\pgfarrowwidth=\dimen314
+\pgfarrowlinewidth=\dimen315
 ) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfit.code.tex
 File: tikzlibraryfit.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-\@quotelevel=\count482
-\@quotereset=\count483
+\@quotelevel=\count483
+\@quotereset=\count484
  (./main.aux)
 \openout1 = `main.aux'.
 
@@ -832,17 +839,17 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
  (/usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count484
-\scratchdimen=\dimen314
-\scratchbox=\box75
-\nofMPsegments=\count485
-\nofMParguments=\count486
-\everyMPshowfont=\toks41
-\MPscratchCnt=\count487
-\MPscratchDim=\dimen315
-\MPnumerator=\count488
-\makeMPintoPDFobject=\count489
-\everyMPtoPDFconversion=\toks42
+\scratchcounter=\count485
+\scratchdimen=\dimen316
+\scratchbox=\box76
+\nofMPsegments=\count486
+\nofMParguments=\count487
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count488
+\MPscratchDim=\dimen317
+\MPnumerator=\count489
+\makeMPintoPDFobject=\count490
+\everyMPtoPDFconversion=\toks43
 ) (/usr/local/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -920,6 +927,7 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
  [1
 
@@ -968,7 +976,7 @@ Chapter 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.178 
+l.181 
        [1
 
 
@@ -978,164 +986,169 @@ Chapter 2.
 
 ] [4] [5]
 Chapter 3.
-<ux-flow.png, id=195, 1117.17375pt x 383.4325pt>
+<ux-flow.png, id=193, 1117.17375pt x 383.4325pt>
 File: ux-flow.png Graphic file (type png)
 <use ux-flow.png>
-Package pdftex.def Info: ux-flow.png  used on input line 250.
+Package pdftex.def Info: ux-flow.png  used on input line 253.
 (pdftex.def)             Requested size: 385.02547pt x 132.14394pt.
 [6
 
  <./ux-flow.png>] [7] [8]
 Chapter 4.
-<arch-diagram.png, id=216, 764.8575pt x 524.96124pt>
+<arch-diagram.png, id=214, 764.8575pt x 524.96124pt>
 File: arch-diagram.png Graphic file (type png)
 <use arch-diagram.png>
-Package pdftex.def Info: arch-diagram.png  used on input line 292.
+Package pdftex.def Info: arch-diagram.png  used on input line 295.
 (pdftex.def)             Requested size: 271.7835pt x 186.53476pt.
 [9
 
  <./arch-diagram.png>]
-<08_navigation_graph.pdf, id=223, 714.46121pt x 372.23567pt>
+<08_navigation_graph.pdf, id=221, 714.46121pt x 372.23567pt>
 File: 08_navigation_graph.pdf Graphic file (type pdf)
 <use 08_navigation_graph.pdf>
-Package pdftex.def Info: 08_navigation_graph.pdf  used on input line 311.
+Package pdftex.def Info: 08_navigation_graph.pdf  used on input line 314.
 (pdftex.def)             Requested size: 430.31812pt x 224.20078pt.
-<03_sequence_create_challenge.pdf, id=225, 456.32684pt x 363.42575pt>
+<03_sequence_create_challenge.pdf, id=223, 456.32684pt x 363.42575pt>
 File: 03_sequence_create_challenge.pdf Graphic file (type pdf)
 <use 03_sequence_create_challenge.pdf>
-Package pdftex.def Info: 03_sequence_create_challenge.pdf  used on input line 332.
+Package pdftex.def Info: 03_sequence_create_challenge.pdf  used on input line 335.
 (pdftex.def)             Requested size: 407.66833pt x 324.67897pt.
  [10 <./08_navigation_graph.pdf>]
-<01_domain_data_model.pdf, id=267, 798.96992pt x 366.29346pt>
+<01_domain_data_model.pdf, id=265, 798.96992pt x 366.29346pt>
 File: 01_domain_data_model.pdf Graphic file (type pdf)
 <use 01_domain_data_model.pdf>
-Package pdftex.def Info: 01_domain_data_model.pdf  used on input line 348.
+Package pdftex.def Info: 01_domain_data_model.pdf  used on input line 351.
 (pdftex.def)             Requested size: 407.66833pt x 186.9022pt.
  [11 <./03_sequence_create_challenge.pdf>]
-<04_sequence_global_duel_vote_token.pdf, id=302, 470.553pt x 532.71924pt>
+<04_sequence_global_duel_vote_token.pdf, id=299, 470.553pt x 532.71924pt>
 File: 04_sequence_global_duel_vote_token.pdf Graphic file (type pdf)
 <use 04_sequence_global_duel_vote_token.pdf>
-Package pdftex.def Info: 04_sequence_global_duel_vote_token.pdf  used on input line 375.
+Package pdftex.def Info: 04_sequence_global_duel_vote_token.pdf  used on input line 378.
 (pdftex.def)             Requested size: 430.31812pt x 487.18945pt.
  [12 <./01_domain_data_model.pdf>] [13 <./04_sequence_global_duel_vote_token.pdf>] [14]
 Chapter 5.
+<feedback-wall.jpeg, id=371, 4047.12pt x 3035.34pt>
+File: feedback-wall.jpeg Graphic file (type jpg)
+<use feedback-wall.jpeg>
+Package pdftex.def Info: feedback-wall.jpeg  used on input line 411.
+(pdftex.def)             Requested size: 172.13pt x 129.0813pt.
 [15
 
-] [16] [17]
+ <./feedback-wall.jpeg>] [16] [17]
 Chapter 6.
-<init_map.png, id=388, 1210.5225pt x 2631.8325pt>
+<init_map.png, id=387, 1210.5225pt x 2631.8325pt>
 File: init_map.png Graphic file (type png)
 <use init_map.png>
-Package pdftex.def Info: init_map.png  used on input line 507.
+Package pdftex.def Info: init_map.png  used on input line 519.
 (pdftex.def)             Requested size: 90.5922pt x 196.93718pt.
-<init_submit.png, id=389, 1210.5225pt x 2631.8325pt>
+<init_submit.png, id=388, 1210.5225pt x 2631.8325pt>
 File: init_submit.png Graphic file (type png)
 <use init_submit.png>
-Package pdftex.def Info: init_submit.png  used on input line 512.
+Package pdftex.def Info: init_submit.png  used on input line 524.
 (pdftex.def)             Requested size: 90.5922pt x 196.93718pt.
-<init_profile.png, id=390, 1210.5225pt x 2631.8325pt>
+<init_profile.png, id=389, 1210.5225pt x 2631.8325pt>
 File: init_profile.png Graphic file (type png)
 <use init_profile.png>
-Package pdftex.def Info: init_profile.png  used on input line 517.
+Package pdftex.def Info: init_profile.png  used on input line 529.
 (pdftex.def)             Requested size: 90.5922pt x 196.93718pt.
 [18
 
 ]
-<pre_upload.PNG, id=396, 1183.42125pt x 2565.585pt>
+<pre_upload.PNG, id=395, 1183.42125pt x 2565.585pt>
 File: pre_upload.PNG Graphic file (type png)
 <use pre_upload.PNG>
-Package pdftex.def Info: pre_upload.PNG  used on input line 536.
+Package pdftex.def Info: pre_upload.PNG  used on input line 548.
 (pdftex.def)             Requested size: 135.89174pt x 294.58588pt.
-<post_upload.PNG, id=397, 1183.42125pt x 2565.585pt>
+<post_upload.PNG, id=396, 1183.42125pt x 2565.585pt>
 File: post_upload.PNG Graphic file (type png)
 <use post_upload.PNG>
-Package pdftex.def Info: post_upload.PNG  used on input line 541.
+Package pdftex.def Info: post_upload.PNG  used on input line 553.
 (pdftex.def)             Requested size: 135.89174pt x 294.58588pt.
-<pre_vote.PNG, id=398, 1183.42125pt x 2565.585pt>
+<pre_vote.PNG, id=397, 1183.42125pt x 2565.585pt>
 File: pre_vote.PNG Graphic file (type png)
 <use pre_vote.PNG>
-Package pdftex.def Info: pre_vote.PNG  used on input line 560.
+Package pdftex.def Info: pre_vote.PNG  used on input line 572.
 (pdftex.def)             Requested size: 135.89174pt x 294.58588pt.
-<mid_vote.PNG, id=399, 1183.42125pt x 2565.585pt>
+<mid_vote.PNG, id=398, 1183.42125pt x 2565.585pt>
 File: mid_vote.PNG Graphic file (type png)
 <use mid_vote.PNG>
-Package pdftex.def Info: mid_vote.PNG  used on input line 565.
+Package pdftex.def Info: mid_vote.PNG  used on input line 577.
 (pdftex.def)             Requested size: 135.89174pt x 294.58588pt.
-<post_vote.PNG, id=400, 1183.42125pt x 2565.585pt>
+<post_vote.PNG, id=399, 1183.42125pt x 2565.585pt>
 File: post_vote.PNG Graphic file (type png)
 <use post_vote.PNG>
-Package pdftex.def Info: post_vote.PNG  used on input line 570.
+Package pdftex.def Info: post_vote.PNG  used on input line 582.
 (pdftex.def)             Requested size: 135.89174pt x 294.58588pt.
  [19 <./init_map.png> <./init_submit.png> <./init_profile.png>] [20 <./pre_upload.PNG> <./post_upload.PNG> <./pre_vote.PNG> <./mid_vote.PNG> <./post_vote.PNG>]
-<pre_private.PNG, id=414, 1183.42125pt x 2565.585pt>
+<pre_private.PNG, id=413, 1183.42125pt x 2565.585pt>
 File: pre_private.PNG Graphic file (type png)
 <use pre_private.PNG>
-Package pdftex.def Info: pre_private.PNG  used on input line 591.
+Package pdftex.def Info: pre_private.PNG  used on input line 603.
 (pdftex.def)             Requested size: 135.89174pt x 294.58588pt.
-<post_private1.PNG, id=415, 1183.42125pt x 2565.585pt>
+<post_private1.PNG, id=414, 1183.42125pt x 2565.585pt>
 File: post_private1.PNG Graphic file (type png)
 <use post_private1.PNG>
-Package pdftex.def Info: post_private1.PNG  used on input line 597.
+Package pdftex.def Info: post_private1.PNG  used on input line 609.
 (pdftex.def)             Requested size: 135.89174pt x 294.58588pt.
-<post_private2.PNG, id=416, 1183.42125pt x 2565.585pt>
+<post_private2.PNG, id=415, 1183.42125pt x 2565.585pt>
 File: post_private2.PNG Graphic file (type png)
 <use post_private2.PNG>
-Package pdftex.def Info: post_private2.PNG  used on input line 603.
+Package pdftex.def Info: post_private2.PNG  used on input line 615.
 (pdftex.def)             Requested size: 135.89174pt x 294.58588pt.
  [21 <./pre_private.PNG> <./post_private1.PNG> <./post_private2.PNG>] [22]
 Chapter 7.
-<lock_notif.png, id=428, 587.19376pt x 1270.7475pt>
+<lock_notif.png, id=427, 587.19376pt x 1270.7475pt>
 File: lock_notif.png Graphic file (type png)
 <use lock_notif.png>
-Package pdftex.def Info: lock_notif.png  used on input line 641.
+Package pdftex.def Info: lock_notif.png  used on input line 653.
 (pdftex.def)             Requested size: 144.95303pt x 313.69174pt.
-<vote.png, id=429, 587.19376pt x 1270.7475pt>
+<vote.png, id=428, 587.19376pt x 1270.7475pt>
 File: vote.png Graphic file (type png)
 <use vote.png>
-Package pdftex.def Info: vote.png  used on input line 648.
+Package pdftex.def Info: vote.png  used on input line 660.
 (pdftex.def)             Requested size: 144.95303pt x 313.69174pt.
-<vote_exhaust.png, id=430, 587.19376pt x 1270.7475pt>
+<vote_exhaust.png, id=429, 587.19376pt x 1270.7475pt>
 File: vote_exhaust.png Graphic file (type png)
 <use vote_exhaust.png>
-Package pdftex.def Info: vote_exhaust.png  used on input line 655.
+Package pdftex.def Info: vote_exhaust.png  used on input line 667.
 (pdftex.def)             Requested size: 144.95303pt x 313.69174pt.
 [23
 
 ] [24 <./lock_notif.png> <./vote.png> <./vote_exhaust.png>]
-<save_quest.png, id=445, 587.19376pt x 1270.7475pt>
+<save_quest.png, id=444, 587.19376pt x 1270.7475pt>
 File: save_quest.png Graphic file (type png)
 <use save_quest.png>
-Package pdftex.def Info: save_quest.png  used on input line 678.
+Package pdftex.def Info: save_quest.png  used on input line 690.
 (pdftex.def)             Requested size: 144.95303pt x 313.69174pt.
-<create_city.png, id=446, 587.19376pt x 1270.7475pt>
+<create_city.png, id=445, 587.19376pt x 1270.7475pt>
 File: create_city.png Graphic file (type png)
 <use create_city.png>
-Package pdftex.def Info: create_city.png  used on input line 685.
+Package pdftex.def Info: create_city.png  used on input line 697.
 (pdftex.def)             Requested size: 144.95303pt x 313.69174pt.
-<map_city.png, id=447, 587.19376pt x 1270.7475pt>
+<map_city.png, id=446, 587.19376pt x 1270.7475pt>
 File: map_city.png Graphic file (type png)
 <use map_city.png>
-Package pdftex.def Info: map_city.png  used on input line 692.
+Package pdftex.def Info: map_city.png  used on input line 704.
 (pdftex.def)             Requested size: 144.95303pt x 313.69174pt.
-<empty_profile.png, id=452, 587.19376pt x 1270.7475pt>
+<empty_profile.png, id=451, 587.19376pt x 1270.7475pt>
 File: empty_profile.png Graphic file (type png)
 <use empty_profile.png>
-Package pdftex.def Info: empty_profile.png  used on input line 713.
+Package pdftex.def Info: empty_profile.png  used on input line 725.
 (pdftex.def)             Requested size: 181.18439pt x 392.0856pt.
-<edit_profile.png, id=453, 587.19376pt x 1270.7475pt>
+<edit_profile.png, id=452, 587.19376pt x 1270.7475pt>
 File: edit_profile.png Graphic file (type png)
 <use edit_profile.png>
-Package pdftex.def Info: edit_profile.png  used on input line 720.
+Package pdftex.def Info: edit_profile.png  used on input line 732.
 (pdftex.def)             Requested size: 181.18439pt x 392.0856pt.
-<share.png, id=455, 587.19376pt x 1270.7475pt>
+<share.png, id=454, 587.19376pt x 1270.7475pt>
 File: share.png Graphic file (type png)
 <use share.png>
-Package pdftex.def Info: share.png  used on input line 735.
+Package pdftex.def Info: share.png  used on input line 747.
 (pdftex.def)             Requested size: 181.18439pt x 392.0856pt.
-<friend.png, id=456, 587.19376pt x 1270.7475pt>
+<friend.png, id=455, 587.19376pt x 1270.7475pt>
 File: friend.png Graphic file (type png)
 <use friend.png>
-Package pdftex.def Info: friend.png  used on input line 742.
+Package pdftex.def Info: friend.png  used on input line 754.
 (pdftex.def)             Requested size: 181.18439pt x 392.0856pt.
  [25 <./save_quest.png> <./create_city.png> <./map_city.png>] [26 <./empty_profile.png> <./edit_profile.png>] [27 <./share.png> <./friend.png>] [28] [29
 
@@ -1153,18 +1166,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33480 strings out of 467525
- 629512 string characters out of 5418983
- 1475156 words of memory out of 5000000
- 61621 multiletter control sequences out of 15000+600000
+ 33557 strings out of 467525
+ 630892 string characters out of 5418983
+ 1476513 words of memory out of 5000000
+ 61695 multiletter control sequences out of 15000+600000
  644901 words of font info for 180 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,13n,103p,1285b,1267s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on main.pdf (38 pages, 54907663 bytes).
+Output written on main.pdf (38 pages, 57384252 bytes).
 PDF statistics:
- 724 PDF objects out of 1000 (max. 8388607)
- 582 compressed objects within 6 object streams
- 113 named destinations out of 1000 (max. 500000)
- 43988 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 718 PDF objects out of 1000 (max. 8388607)
+ 575 compressed objects within 6 object streams
+ 112 named destinations out of 1000 (max. 500000)
+ 43977 words of extra memory for PDF output out of 51595 (max. 10000000)
 

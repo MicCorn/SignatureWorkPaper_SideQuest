@@ -180,6 +180,8 @@ INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/caption/caption3.sty
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/caption/caption3.sty
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/caption/ltcaption.sty
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/caption/ltcaption.sty
+INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
@@ -390,6 +392,11 @@ INPUT ./04_sequence_global_duel_vote_token.pdf
 INPUT ./04_sequence_global_duel_vote_token.pdf
 INPUT ./04_sequence_global_duel_vote_token.pdf
 INPUT ./04_sequence_global_duel_vote_token.pdf
+INPUT ./feedback-wall.jpeg
+INPUT ./feedback-wall.jpeg
+INPUT ./feedback-wall.jpeg
+INPUT ./feedback-wall.jpeg
+INPUT ./feedback-wall.jpeg
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmss9.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
