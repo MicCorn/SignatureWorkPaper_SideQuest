@@ -180,15 +180,6 @@ Second, the project reflects the interdisciplinary nature of the Computation and
 
 Finally, the development process itself uses tools and methods used in the industry. The application is built and deployed as a full-stack system, while development follows an iterative, agile-inspired workflow with continuous feature releases. This process provides practical preparation for roles in software engineering and product development.
 
-
-% Example inline figure (placeholder)
-\begin{figure}[htbp]
-\centering
-\includegraphics[height=4cm]{btc.jpg}
-\caption{Placeholder figure. Replace with an early concept sketch, moodboard, or UI screenshot.}
-\label{fig:intro-placeholder}
-\end{figure}
-
 % ============================================================================
 \chapter{Background and Literature Review}
 \label{ch:litreview}
@@ -413,6 +404,8 @@ Figure~\ref{fig:vote_token_sequence} highlights this flow.
 SideQuest uses two Elo scores per photo. Local Elo ranks submissions within a single Quest. Global Elo ranks photos across the whole platform. This allows the system to support both place-specific competition and cross-platform comparison.
 
 Global duel selection is weighted rather than purely random. Some duels compare photos from the same Quest, preserving the meaning of the original prompt. Others draw from Elo-based visibility groups, which helps mix established and still-calibrating content. Quest-local matchups are also biased toward recent activity so newer Quests can enter circulation. Together, these rules balance freshness, fairness, and variety.
+
+Detailed equations for Elo ranking and duel selection can be found in Appednix~\ref{sec:ranking}.
 
 \subsection*{Geographic Handling}
 
@@ -802,16 +795,15 @@ SideQuest is a full-stack application following a common development lifecycle f
 \label{sec:artifact-inventory}
 \textbf{Primary artifact}
 \begin{itemize}
-  \item SideQuest iOS App: \href{https://example.com/app-store-link}{App Store link (placeholder)}
+  \item SideQuest iOS App: \href{https://apps.apple.com/us/app/sidequest-explore-challenge/id6753264647}{App Store link}
 \end{itemize}
 
 \textbf{Secondary Artifacts}
 \begin{itemize}
   \item Frontend and Backend GitHub Repositories (source code, commit history): \\
-  \href{https://github.com/example/frontend}{Frontend repository (placeholder)}, \\
-  \href{https://github.com/example/backend}{Backend repository (placeholder)}
+  \href{https://github.com/ColdenJohnson/geoapp}{Frontend repository}, \\ Backend repository (private GitHub repository)
   \item Deployed Backend (Docker container on Google Cloud Run): \\
-  \href{https://example.com/cloud-run-endpoint}{Backend service endpoint (placeholder)}
+  \href{https://geode-backend-834952308922.us-central1.run.app/}{Backend service endpoint (only accessible through SideQuest)}
   \item Screenshots of App State
   \item Diagrams of database, tech stack, development workflow, etc.
 \end{itemize}
@@ -823,7 +815,7 @@ Put overflow UI screens, edge cases, and iterations here.
 Put full-resolution architecture diagrams here.
 
 \section{Ranking and Selection Equations}
-
+\label{sec:ranking}
 The Elo expected score for photo $A$ against photo $B$ is
 
 \[

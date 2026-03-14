@@ -1,8 +1,8 @@
-PWD /Users/michaelcornell/Documents/School/Geode/Geode Documents/SW_rd
+PWD /Users/michaelcornell/Documents/School/Geode/Geode Documents/SignatureWorkPaper_SideQuest
 INPUT /usr/local/texlive/2026/texmf.cnf
 INPUT /usr/local/texlive/2026/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/michaelcornell/Documents/School/Geode/Geode Documents/SW_rd/main.tex
+INPUT /Users/michaelcornell/Documents/School/Geode/Geode Documents/SignatureWorkPaper_SideQuest/main.tex
 OUTPUT main.log
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/base/report.cls
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/base/report.cls
@@ -357,11 +357,6 @@ INPUT main.lof
 OUTPUT main.lof
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
-INPUT ./btc.jpg
-INPUT ./btc.jpg
-INPUT ./btc.jpg
-INPUT ./btc.jpg
-INPUT ./btc.jpg
 INPUT ./ux-flow.png
 INPUT ./ux-flow.png
 INPUT ./ux-flow.png

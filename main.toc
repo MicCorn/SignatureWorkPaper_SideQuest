@@ -42,7 +42,7 @@
 \contentsline {section}{\numberline {7.1}Concept Statement}{24}{section.7.1}%
 \contentsline {section}{\numberline {7.2}What is Delivered}{24}{section.7.2}%
 \contentsline {section}{\numberline {7.3}Example User Journey}{24}{section.7.3}%
-\contentsline {chapter}{References}{30}{chapter*.21}%
+\contentsline {chapter}{References}{30}{chapter*.20}%
 \contentsline {chapter}{\numberline {A}Appendices}{31}{appendix.A}%
 \contentsline {section}{\numberline {A.1}Artifact Inventory}{31}{section.A.1}%
 \contentsline {section}{\numberline {A.2}Additional Screenshots (Example)}{31}{section.A.2}%

@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber main"] 1773465994.65752 "main.bcf" "main.bbl" "main" 1773470056.19224 0
+["biber main"] 1773465994.65752 "main.bcf" "main.bbl" "main" 1773477707.43403 0
   "bibfile.bib" 1772755948 3387 5b8441f4a61fdcd2f2e1d688bb01ff57 ""
-  "main.bcf" 1773470056.05465 109509 c9ca4931277707016f737e3691bba1a9 "pdflatex"
+  "main.bcf" 1773477707.26493 109509 c9ca4931277707016f737e3691bba1a9 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1773470043.67599 "/Users/michaelcornell/Documents/School/Geode/Geode Documents/SW_rd/main.tex" "main.pdf" "main" 1773470056.19255 0
-  "/Users/michaelcornell/Documents/School/Geode/Geode Documents/SW_rd/main.tex" 1773470043.40857 65297 1dcecf10cfb2ca8401ed561e74d2fec2 ""
+["pdflatex"] 1773477694.66935 "/Users/michaelcornell/Documents/School/Geode/Geode Documents/SignatureWorkPaper_SideQuest/main.tex" "main.pdf" "main" 1773477707.43433 0
+  "/Users/michaelcornell/Documents/School/Geode/Geode Documents/SignatureWorkPaper_SideQuest/main.tex" 1773477694.41715 65185 a3a0bd8a13a098d326c707d3ea5e0a52 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1136768653 1536 02c06700a42be0f5a28664c7273f82e7 ""
@@ -226,7 +226,6 @@
   "04_sequence_global_duel_vote_token.pdf" 1773388378.94108 77445 b558f7e7ba0ce0e6b4094861724b0a45 ""
   "08_navigation_graph.pdf" 1773388391.80264 76984 8eeeef34e0a0714adeceae5d4bd896aa ""
   "arch-diagram.png" 1773388299.73425 1412961 a6b8a36a3d1ddfbbecbd026b2927f600 ""
-  "btc.jpg" 1772755948 60838 5758bc6edf44b8ef394a5f4ed4b3a77b ""
   "create_city.png" 1773372193 5227624 025fafb7a0e315113fd8edc2ba38259b ""
   "edit_profile.png" 1773372348 457352 d2847b4d241df99e4e903a481295cc5e ""
   "empty_profile.png" 1773373710 455978 12ce611fa674ea153d28f798a4fda72a ""
@@ -235,12 +234,12 @@
   "init_profile.png" 1773465849.68215 208584 169164b1b7f749c46d1ab82db2ca9a2c ""
   "init_submit.png" 1773465849.66399 146165 8f000ee33729942ffb815701b13d27e1 ""
   "lock_notif.png" 1773398291 10975011 d8fe1ce1edb26c83ab7c47f2868420d7 ""
-  "main.aux" 1773470056.04884 28205 7ba4c344a7323d5fad1856c05cce3147 "pdflatex"
+  "main.aux" 1773477707.25331 27928 45fc9786383dcdee5b59253d6c15b02f "pdflatex"
   "main.bbl" 1773466010.62315 18159 8acb0dd0a2b35cc1a581b78222f2a13e "biber main"
-  "main.lof" 1773470056.05559 1626 c364b29c89bdf0df2ec50f927994b127 "pdflatex"
-  "main.run.xml" 1773470056.05545 2343 6408a33b9083821670ba52acb9114879 "pdflatex"
-  "main.tex" 1773470043.40857 65297 1dcecf10cfb2ca8401ed561e74d2fec2 ""
-  "main.toc" 1773470056.05553 4124 c69d7d6e3eabd1bf23dd3fff5ccd1e50 "pdflatex"
+  "main.lof" 1773477707.26698 1459 fbf7abb6bde2e55f2138f349bd118e63 "pdflatex"
+  "main.run.xml" 1773477707.2668 2343 6408a33b9083821670ba52acb9114879 "pdflatex"
+  "main.tex" 1773477694.41715 65185 a3a0bd8a13a098d326c707d3ea5e0a52 ""
+  "main.toc" 1773477707.26693 4124 6b66d0230ceb0cf78da70e5903f4f461 "pdflatex"
   "map_city.png" 1773372232 1906620 72f66391d6dc5892e6b6481a8389cf98 ""
   "mid_vote.PNG" 1773467362 6321739 6d433bd8c82fcc3377f9651d4bd46272 ""
   "post_private1.PNG" 1773466635 577053 ca01c95c7b238cfc7716cb6fc02386d9 ""
