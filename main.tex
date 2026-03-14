@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper,oneside]{report}
+\documentclass[12pt,a4paper,oneside]{report}
 
 % --- Packages ---
 \usepackage{amsmath,amssymb}
@@ -7,6 +7,17 @@
 \usepackage{xcolor}
 \usepackage[a4paper,margin=1in]{geometry}
 \usepackage{longtable,booktabs,array}
+
+\setlength{\parskip}{0.8\baselineskip}
+
+% Encourage figures to share pages with surrounding text instead of sitting alone
+\setcounter{topnumber}{2}
+\setcounter{bottomnumber}{2}
+\setcounter{totalnumber}{4}
+\renewcommand{\topfraction}{0.95}
+\renewcommand{\bottomfraction}{0.95}
+\renewcommand{\textfraction}{0.05}
+\renewcommand{\floatpagefraction}{0.95}
 
 \usepackage{titlesec}
 \titleformat{\chapter}[display]
@@ -44,13 +55,18 @@
 \begin{document}
 
 % About Majors at DKU (required long background text)
-\instructions{There is a very long background text here that is required. I will paste it in later}
+Background:  Duke Kunshan University (DKU) is an interdisciplinary institution that grants dual undergraduate degrees, an MOE Chinese degree and a degree from Duke University in Durham, United States. The principal structure of DKU majors is robustly interdisciplinary. No student confines their study to a single discipline (for example, biology or economics). Instead, all students engage in broad inquiry related to a subject or question (for example, political economy or global health) and take a wide variety of courses related to that area (for example, in public policy, history, ethics, or economics). As a result, our graduates are prepared to engage in a wide variety of inquiries using multiple methodologies to address complex issues that require interdisciplinary approaches.  
+
+This has implications for our vision and expectations of undergraduate theses and design projects, which reflect this broad interdisciplinary training. At DKU, every student completes a two-year project known as signature work which consists of multiple interconnected parts including thematic courses, experiential learning, capstones, and a final product. It seeks to integrate students’ interdisciplinary educational experience and culminates in the creation of a product in a scholarly, creative, or applied nature in lieu of an undergraduate thesis or design required by JED. Because DKU encourages students to cultivate their independence and creativity as one of its institutional student learning outcomes, the student-led signature work projects often reflect students’ own particular interdisciplinary interests and training.  In addition, signature work has an intensive emphasis on problem-solving and skill-development which is much needed for any interdisciplinary inquiry; thus, students’ final products are evidence of transferrable skills that students have acquired and demonstrated through the 2-year program, rather than content knowledge narrowly defined by disciplinary training.
+  
+In sum, while the Chinese major declared with any given student might be construed narrowly, the experience of our students is much broader—and intentionally so.  This is a distinctive feature of our curriculum, and this distinctiveness results in broadly interdisciplinary submissions from our graduates’ submitting theses or design projects. We have designed this to prepare our students for a wide variety of graduate programs in China and the West, where interdisciplinary training is a competitive advantage.
 
 % Author name (capitalized in its regular way)
 \newcommand{\authorname}{Michael Cornell}
 
 % Title (cannot exceed three lines)
-\newcommand{\thetitle}{SideQuest: Full-stack Application Development of a Novel Social Photo Platform}
+\newcommand{\thetitle}{SideQuest: Full-stack Application Developmen}
+\newcommand{\thesubtitle}{\textit{A Novel Social Platform Centered on Location}}
 
 % Date of submission with normal capitalization. Use the format January 29, 2022.
 \newcommand{\submissiondate}{March 8, 2026}
@@ -72,7 +88,10 @@
 \vspace*{\bigskipamount}
 
 \begin{center}
+
 {\sffamily\LARGE\bfseries\MakeUppercase\thetitle\par}
+{\large\itshape \thesubtitle\par}
+\bigskip
 
 \bigskip
 by
@@ -409,7 +428,7 @@ The development of SideQuest followed an Agile-inspired workflow focused on rapi
 \vspace{-6pt}
 \centering
 \includegraphics[width=\linewidth,angle=-90]{feedback-wall.jpeg}
-\caption[User Feedback Backlog]{Screenshot of the user feedback backlog board.}
+\caption[User Feedback Backlog]{Photo of the user feedback backlog board.}
 \label{fig:feedback_backlog}
 \vspace{-6pt}
 \end{wrapfigure}
@@ -640,38 +659,10 @@ The complete list of delivered artifacts is provided in the Artifact Inventory i
 
 \section{Example User Journey}
 
-The next section will follow Kailani, one of our test users, to demonstrate how the app's features and interactions.
+The next section follows Kailani, one of our test users, to demonstrate the app's features and interactions. The supporting screenshots for this walkthrough are collected in Appendix~\ref{sec:user-journey-figures}.
 
 \textbf{Step 1: Notification and entry into voting.}
 Kailani receives a push notification on her phone indicating that her votes have refreshed. Curious to see new content, she taps the notification directly from the lock screen (Fig.~\ref{fig:lock_notif}). The notification launches the SideQuest application and opens directly to the Vote tab.
-
-\begin{figure}[htbp]
-\centering
-
-\begin{subfigure}{0.32\textwidth}
-\centering
-\includegraphics[width=\linewidth]{lock_notif.png}
-\caption{Push notification on the device lock screen prompting the user to return and vote.}
-\label{fig:lock_notif}
-\end{subfigure}
-\hfill
-\begin{subfigure}{0.32\textwidth}
-\centering
-\includegraphics[width=\linewidth]{vote.png}
-\caption{Head-to-head voting interface. Users swipe to select their preferred submission.}
-\label{fig:vote}
-\end{subfigure}
-\hfill
-\begin{subfigure}{0.32\textwidth}
-\centering
-\includegraphics[width=\linewidth]{vote_exhaust.png}
-\caption{Voting exhaustion message reminding users to use other parts of the app.}
-\label{fig:vote_exhaust}
-\end{subfigure}
-
-\label{fig:voting_pair}
-\end{figure}
-
 
 \textbf{Step 2: Voting on photo duels.}
 Inside the Vote tab, Kailani is presented with a pair of photos. She then swipes to her favorite, casting a vote that updates the rankings (Fig.~\ref{fig:vote}). The interface allows users to quickly compare contributions from across the platform.
@@ -682,32 +673,6 @@ After submitting all of her available votes, Kailani is shown a message indicati
 \textbf{Step 4: Browsing Quests.}
 After finishing her votes, Kailani switches to the Quests tab to browse available prompts. She encounters a Quest titled “Play tag with your friends!” Although she cannot participate at the moment, she swipes upward to save the Quest for later  (Fig.~\ref{fig:save_quest}). 
 
-\begin{figure}[htbp]
-\centering
-
-\begin{subfigure}{0.32\textwidth}
-\centering
-\includegraphics[width=\linewidth]{save_quest.png}
-\caption{Saving a Quest for later participation.}
-\label{fig:save_quest}
-\end{subfigure}
-\hfill
-\begin{subfigure}{0.32\textwidth}
-\centering
-\includegraphics[width=\linewidth]{create_city.png}
-\caption{Creating a new Quest with a prompt and photo.}
-\label{fig:create_city}
-\end{subfigure}
-\hfill
-\begin{subfigure}{0.32\textwidth}
-\centering
-\includegraphics[width=\linewidth]{map_city.png}
-\caption{A newly created Quest appearing on the map interface.}
-\label{fig:map_city}
-\end{subfigure}
-
-\end{figure}
-
 \textbf{Step 5: Creating a new Quest.}
 Kailani then navigates to the Map tab to create her own challenge. From her current location at a café, she takes a photo of the city view and writes the prompt “City view.” She chooses to allow anyone to participate in the challenge by disabling the “Location-Locked” option before pressing the CREATE button (Fig.~\ref{fig:create_city}).
 
@@ -717,46 +682,8 @@ After posting the challenge, Kailani is returned to the Map tab. Her newly creat
 \textbf{Step 7: Viewing and editing the profile.}
 Kailani next navigates to the Profile screen to see how creating the new Quest contributes to her progress toward platform badges (Fig.~\ref{fig:empty_profile}). Realizing she wants to personalize her account further, she taps the edit icon to open the profile editing interface (Fig.~\ref{fig:edit_profile}). Here she can update her display name, handle, biography, and default privacy settings for new Quests. After saving her changes, the app returns her to the profile screen.
 
-\begin{figure}[htbp]
-\centering
-
-\begin{subfigure}{0.4\textwidth}
-\centering
-\includegraphics[width=\linewidth]{empty_profile.png}
-\caption{User profile screen displaying progress and personal information.}
-\label{fig:empty_profile}
-\end{subfigure}
-\hfill
-\begin{subfigure}{0.4\textwidth}
-\centering
-\includegraphics[width=\linewidth]{edit_profile.png}
-\caption{Profile editing interface allowing users to update personal information and privacy settings.}
-\label{fig:edit_profile}
-\end{subfigure}
-
-\end{figure}
-
 \textbf{Step 8: Sharing the profile.}
 To invite a friend to join the platform, Kailani taps the Share Profile button. This opens the system share sheet, allowing her to send a personalized invitation link (Fig.~\ref{fig:share}). The link directs her friend to install SideQuest and connect with her account.
-
-\begin{figure}[htbp]
-\centering
-
-\begin{subfigure}{0.4\textwidth}
-\centering
-\includegraphics[width=\linewidth]{share.png}
-\caption{Sharing a profile link through the system messaging interface.}
-\label{fig:share}
-\end{subfigure}
-\hfill
-\begin{subfigure}{0.4\textwidth}
-\centering
-\includegraphics[width=\linewidth]{friend.png}
-\caption{Accepting an incoming friend request in the Friends interface.}
-\label{fig:friend}
-\end{subfigure}
-
-\end{figure}
 
 \textbf{Step 9: Accepting a friend request.}
 Finally, Kailani opens the Friends tab to manage her social connections. She sees an incoming friend request from the person she just invited and accepts it (Fig.~\ref{fig:friend}). This enables them to view each other’s private Quests on the map.
@@ -827,5 +754,98 @@ w = 0.1 + 0.2 \cdot \exp\!\left(\frac{-\ln(2)\cdot \mathrm{ageHours}}{\mathrm{ha
 
 with a half-life of 14 days. This gives newer pins more influence while preserving a nonzero floor for older pins.
 
+\section{User Journey Figures}
+\label{sec:user-journey-figures}
+
+\begin{figure}[p]
+\centering
+
+\begin{subfigure}{0.32\textwidth}
+\centering
+\includegraphics[width=\linewidth]{lock_notif.PNG}
+\caption{Push notification on the device lock screen prompting the user to return and vote.}
+\label{fig:lock_notif}
+\end{subfigure}
+\hfill
+\begin{subfigure}{0.32\textwidth}
+\centering
+\includegraphics[width=\linewidth]{vote.PNG}
+\caption{Head-to-head voting interface. Users swipe to select their preferred submission.}
+\label{fig:vote}
+\end{subfigure}
+\hfill
+\begin{subfigure}{0.32\textwidth}
+\centering
+\includegraphics[width=\linewidth]{vote_exhaust.PNG}
+\caption{Voting exhaustion message reminding users to use other parts of the app.}
+\label{fig:vote_exhaust}
+\end{subfigure}
+
+\caption{Screenshots for Steps 1--3 of the example user journey.}
+\label{fig:voting_pair}
+\end{figure}
+
+\begin{figure}[p]
+\centering
+
+\begin{subfigure}{0.32\textwidth}
+\centering
+\includegraphics[width=\linewidth]{save_quest.PNG}
+\caption{Saving a Quest for later participation.}
+\label{fig:save_quest}
+\end{subfigure}
+\hfill
+\begin{subfigure}{0.32\textwidth}
+\centering
+\includegraphics[width=\linewidth]{create_city.PNG}
+\caption{Creating a new Quest with a prompt and photo.}
+\label{fig:create_city}
+\end{subfigure}
+\hfill
+\begin{subfigure}{0.32\textwidth}
+\centering
+\includegraphics[width=\linewidth]{map_city.PNG}
+\caption{A newly created Quest appearing on the map interface.}
+\label{fig:map_city}
+\end{subfigure}
+
+\caption{Screenshots for Steps 4--6 of the example user journey.}
+\end{figure}
+
+\begin{figure}[p]
+\centering
+
+\begin{subfigure}{0.4\textwidth}
+\includegraphics[width=\linewidth]{empty_profile.PNG}
+\caption{User profile screen displaying progress and personal information.}
+\label{fig:empty_profile}
+\end{subfigure}
+\hspace{4mm}
+\begin{subfigure}{0.4\textwidth}
+\includegraphics[width=\linewidth]{edit_profile.PNG}
+\caption{Profile editing interface allowing users to update personal information and privacy settings.}
+\label{fig:edit_profile}
+\end{subfigure}
+
+\caption{Screenshots for Step 7 of the example user journey.}
+\end{figure}
+
+\begin{figure}[p]
+\centering
+
+\begin{subfigure}{0.4\textwidth}
+\includegraphics[width=\linewidth]{share.PNG}
+\caption{Sharing a profile link through the system messaging interface.}
+\label{fig:share}
+\end{subfigure}
+\hspace{4mm}
+\begin{subfigure}{0.4\textwidth}
+\includegraphics[width=\linewidth]{friend.PNG}
+\caption{Accepting an incoming friend request in the Friends interface.}
+\label{fig:friend}
+\end{subfigure}
+
+\caption{Screenshots for Steps 8--9 of the example user journey.}
+\end{figure}
 
 \end{document}

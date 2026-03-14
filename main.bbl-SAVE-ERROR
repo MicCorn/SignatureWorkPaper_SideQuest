@@ -19,35 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global/global}
-    \entry{Axler2020}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=71493eec7caacea528ad39dbfb52773a}{%
-           family={Axler},
-           familyi={A\bibinitperiod},
-           given={Sheldon},
-           giveni={S\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{71493eec7caacea528ad39dbfb52773a}
-      \strng{fullhash}{71493eec7caacea528ad39dbfb52773a}
-      \strng{fullhashraw}{71493eec7caacea528ad39dbfb52773a}
-      \strng{bibnamehash}{71493eec7caacea528ad39dbfb52773a}
-      \strng{authorbibnamehash}{71493eec7caacea528ad39dbfb52773a}
-      \strng{authornamehash}{71493eec7caacea528ad39dbfb52773a}
-      \strng{authorfullhash}{71493eec7caacea528ad39dbfb52773a}
-      \strng{authorfullhashraw}{71493eec7caacea528ad39dbfb52773a}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Measure, Integration \& Real Analysis}
-      \field{year}{2020}
-      \verb{doi}
-      \verb 10.1007/978-3-030-33143-6
-      \endverb
-    \endentry
     \entry{Eyespy}{inproceedings}{}{}
       \name{author}{7}{}{%
         {{hash=856c365cd43af035c199f6fe46e53ea0}{%
@@ -222,31 +193,6 @@
       \field{year}{2024}
       \field{pages}{7\bibrangedash 11}
       \range{pages}{5}
-    \endentry
-    \entry{Hyper}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=2b7074e8ec6efcee895356f6b68c07c3}{%
-           family={Hyper},
-           familyi={H\bibinitperiod}}}%
-      }
-      \strng{namehash}{2b7074e8ec6efcee895356f6b68c07c3}
-      \strng{fullhash}{2b7074e8ec6efcee895356f6b68c07c3}
-      \strng{fullhashraw}{2b7074e8ec6efcee895356f6b68c07c3}
-      \strng{bibnamehash}{2b7074e8ec6efcee895356f6b68c07c3}
-      \strng{authorbibnamehash}{2b7074e8ec6efcee895356f6b68c07c3}
-      \strng{authornamehash}{2b7074e8ec6efcee895356f6b68c07c3}
-      \strng{authorfullhash}{2b7074e8ec6efcee895356f6b68c07c3}
-      \strng{authorfullhashraw}{2b7074e8ec6efcee895356f6b68c07c3}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{labelnamesource}{author}
-      \field{journaltitle}{Hyper}
-      \verb{urlraw}
-      \verb https://www.hyper-sq.com/
-      \endverb
-      \verb{url}
-      \verb https://www.hyper-sq.com/
-      \endverb
     \endentry
     \entry{Geocaching}{article}{}{}
       \name{author}{3}{}{%
@@ -477,58 +423,6 @@
       \field{year}{2019}
       \field{pages}{583\bibrangedash 603}
       \range{pages}{21}
-    \endentry
-    \entry{Zhang2021}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=e29e2cdbaa50d58d413b689667ace7db}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Han},
-           giveni={H\bibinitperiod}}}%
-        {{hash=a1c60bf1096b2319092d75de748095c6}{%
-           family={Fan},
-           familyi={F\bibinitperiod},
-           given={Huawei},
-           giveni={H\bibinitperiod}}}%
-        {{hash=cce05cab2c437e9c128f853684ee3137}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Liang},
-           giveni={L\bibinitperiod}}}%
-        {{hash=13f130cc9092f464777eeb08a8dd109a}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Xingang},
-           giveni={X\bibinitperiod}}}%
-      }
-      \strng{namehash}{435720fb71fff6bd0bc5be7059a41b43}
-      \strng{fullhash}{45aefca207201a722bf2cf3f9de43880}
-      \strng{fullhashraw}{45aefca207201a722bf2cf3f9de43880}
-      \strng{bibnamehash}{435720fb71fff6bd0bc5be7059a41b43}
-      \strng{authorbibnamehash}{435720fb71fff6bd0bc5be7059a41b43}
-      \strng{authornamehash}{435720fb71fff6bd0bc5be7059a41b43}
-      \strng{authorfullhash}{45aefca207201a722bf2cf3f9de43880}
-      \strng{authorfullhashraw}{45aefca207201a722bf2cf3f9de43880}
-      \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issue}{2}
-      \field{journaltitle}{Phys. Rev. E}
-      \field{title}{Learning {H}amiltonian dynamics with reservoir computing}
-      \field{volume}{104}
-      \field{year}{2021}
-      \field{pages}{024205}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevE.104.024205
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevE.104.024205
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevE.104.024205
-      \endverb
     \endentry
   \enddatalist
 \endrefsection
