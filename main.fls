@@ -37,6 +37,8 @@ INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/setspace/setspace.sty
+INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/setspace/setspace.sty
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty

@@ -10,38 +10,38 @@
 \contentsline {section}{\numberline {2.1}Explore: Location as Interaction, Not Metadata}{3}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Challenge: Structured Participation Instead of Passive Scrolling}{4}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Synthesis: Explore + Challenge}{5}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Design Philosophy and Conceptual Framework}{6}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Origin of the Concept}{6}{section.3.1}%
-\contentsline {section}{\numberline {3.2}The Core Idea: Explore and Challenge}{6}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Participation Over Passive Social Media}{6}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Preserving Discovery}{7}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Guiding Design Principles}{7}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Less is More}{7}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Clear Affordances}{7}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Do Not Make the User Wait}{8}{subsection.3.5.3}%
-\contentsline {subsection}{\numberline {3.5.4}Creativity Through Constraint}{8}{subsection.3.5.4}%
-\contentsline {subsection}{\numberline {3.5.5}Design for Delight, Not Everyone}{8}{subsection.3.5.5}%
-\contentsline {section}{\numberline {3.6}Evolving the Concept Through User Behavior}{8}{section.3.6}%
-\contentsline {chapter}{\numberline {4}System Architecture}{9}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Application Architecture}{9}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Data Architecture}{11}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Runtime Mechanisms}{12}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Development Process}{15}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Development Workflow}{15}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Deployment}{16}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Role of AI in Development}{17}{section.5.3}%
-\contentsline {chapter}{\numberline {6}User Testing and Iteration}{18}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Early State of the App}{18}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Iterations on Feedback}{19}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Feature One: Uploading a Photo}{19}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Feature Two: Voting}{20}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Feature Three: Private Quests}{21}{subsection.6.2.3}%
-\contentsline {chapter}{\numberline {7}Final Outcome}{23}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Concept Statement}{23}{section.7.1}%
-\contentsline {section}{\numberline {7.2}What is Delivered}{23}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Example User Journey}{23}{section.7.3}%
-\contentsline {chapter}{References}{26}{chapter*.17}%
-\contentsline {chapter}{\numberline {A}Appendices}{27}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Artifact Inventory}{27}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Ranking and Selection Equations}{27}{section.A.2}%
-\contentsline {section}{\numberline {A.3}User Journey Figures}{28}{section.A.3}%
+\contentsline {chapter}{\numberline {3}Design Philosophy and Conceptual Framework}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Origin of the Concept}{7}{section.3.1}%
+\contentsline {section}{\numberline {3.2}The Core Idea: Explore and Challenge}{7}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Participation Over Passive Social Media}{8}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Preserving Discovery}{8}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Guiding Design Principles}{8}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Less is More}{9}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Clear Affordances}{9}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Do Not Make the User Wait}{9}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}Creativity Through Constraint}{9}{subsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.5.5}Design for Delight, Not Everyone}{9}{subsection.3.5.5}%
+\contentsline {section}{\numberline {3.6}Evolving the Concept Through User Behavior}{9}{section.3.6}%
+\contentsline {chapter}{\numberline {4}System Architecture}{11}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Application Architecture}{11}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Data Architecture}{14}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Runtime Mechanisms}{14}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Development Process}{18}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Development Workflow}{18}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Deployment}{20}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Role of AI in Development}{20}{section.5.3}%
+\contentsline {chapter}{\numberline {6}User Testing and Iteration}{22}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Early State of the App}{22}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Iterations on Feedback}{23}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Feature One: Uploading a Photo}{23}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Feature Two: Voting}{24}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Feature Three: Private Quests}{26}{subsection.6.2.3}%
+\contentsline {chapter}{\numberline {7}Final Outcome}{28}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Concept Statement}{28}{section.7.1}%
+\contentsline {section}{\numberline {7.2}What is Delivered}{28}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Example User Journey}{29}{section.7.3}%
+\contentsline {chapter}{References}{31}{chapter*.17}%
+\contentsline {chapter}{\numberline {A}Appendices}{32}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Artifact Inventory}{32}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Ranking and Selection Equations}{32}{section.A.2}%
+\contentsline {section}{\numberline {A.3}User Journey Figures}{33}{section.A.3}%

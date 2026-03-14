@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.1)  14 MAR 2026 22:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.1)  14 MAR 2026 22:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -111,7 +111,9 @@ Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )) (/usr/local/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count296
-)) (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
+)) (/usr/local/texlive/2026/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
@@ -819,24 +821,24 @@ File: tikzlibraryfit.code.tex 2025-08-29 v3.1.11a (3.1.11a)
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
  (/usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count485
@@ -903,16 +905,16 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 55.
-Package biblatex Info: Reference segment=0 on input line 55.
-Package hyperref Info: Link coloring ON on input line 55.
-LaTeX Info: Redefining \microtypecontext on input line 55.
-Package microtype Info: Applying patch `item' on input line 55.
-Package microtype Info: Applying patch `toc' on input line 55.
-Package microtype Info: Applying patch `eqnum' on input line 55.
-Package microtype Info: Applying patch `footnote' on input line 55.
-Package microtype Info: Applying patch `verbatim' on input line 55.
-LaTeX Info: Redefining \microtypesetup on input line 55.
+Package biblatex Info: Reference section=0 on input line 56.
+Package biblatex Info: Reference segment=0 on input line 56.
+Package hyperref Info: Link coloring ON on input line 56.
+LaTeX Info: Redefining \microtypecontext on input line 56.
+Package microtype Info: Applying patch `item' on input line 56.
+Package microtype Info: Applying patch `toc' on input line 56.
+Package microtype Info: Applying patch `eqnum' on input line 56.
+Package microtype Info: Applying patch `footnote' on input line 56.
+Package microtype Info: Applying patch `verbatim' on input line 56.
+LaTeX Info: Redefining \microtypesetup on input line 56.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -940,7 +942,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.129 \end{titlepage}
+l.131 \end{titlepage}
                       [1] (./main.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -976,194 +978,194 @@ Chapter 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.196   \item H
-               ow can location-based challenges and creative constraints be ... [1
+l.195 \section{Research Questions}
+                                   [1
 
 
 ] [2]
 Chapter 2.
 [3
 
-] [4] [5]
+] [4] [5] [6]
 Chapter 3.
-<ux-flow.png, id=203, 1117.17375pt x 383.4325pt>
+<ux-flow.png, id=208, 1117.17375pt x 383.4325pt>
 File: ux-flow.png Graphic file (type png)
 <use ux-flow.png>
-Package pdftex.def Info: ux-flow.png  used on input line 272.
+Package pdftex.def Info: ux-flow.png  used on input line 274.
 (pdftex.def)             Requested size: 385.02547pt x 132.14394pt.
-[6
+[7
 
-] [7 <./ux-flow.png>] [8]
+] [8 <./ux-flow.png>] [9] [10]
 Chapter 4.
-<arch-diagram.png, id=224, 764.8575pt x 524.96124pt>
+<arch-diagram.png, id=232, 764.8575pt x 524.96124pt>
 File: arch-diagram.png Graphic file (type png)
 <use arch-diagram.png>
-Package pdftex.def Info: arch-diagram.png  used on input line 314.
+Package pdftex.def Info: arch-diagram.png  used on input line 316.
 (pdftex.def)             Requested size: 271.7835pt x 186.53476pt.
-[9
+[11
 
  <./arch-diagram.png>]
-<08_navigation_graph.pdf, id=231, 714.46121pt x 372.23567pt>
+<08_navigation_graph.pdf, id=239, 714.46121pt x 372.23567pt>
 File: 08_navigation_graph.pdf Graphic file (type pdf)
 <use 08_navigation_graph.pdf>
-Package pdftex.def Info: 08_navigation_graph.pdf  used on input line 333.
+Package pdftex.def Info: 08_navigation_graph.pdf  used on input line 335.
 (pdftex.def)             Requested size: 430.31812pt x 224.20078pt.
- [10 <./08_navigation_graph.pdf>]
-<03_sequence_create_challenge.pdf, id=274, 456.32684pt x 363.42575pt>
+ [12 <./08_navigation_graph.pdf>]
+<03_sequence_create_challenge.pdf, id=283, 456.32684pt x 363.42575pt>
 File: 03_sequence_create_challenge.pdf Graphic file (type pdf)
 <use 03_sequence_create_challenge.pdf>
-Package pdftex.def Info: 03_sequence_create_challenge.pdf  used on input line 354.
+Package pdftex.def Info: 03_sequence_create_challenge.pdf  used on input line 356.
 (pdftex.def)             Requested size: 407.66833pt x 324.67897pt.
- [11 <./03_sequence_create_challenge.pdf>]
-<01_domain_data_model.pdf, id=308, 798.96992pt x 366.29346pt>
+ [13 <./03_sequence_create_challenge.pdf>]
+<01_domain_data_model.pdf, id=316, 798.96992pt x 366.29346pt>
 File: 01_domain_data_model.pdf Graphic file (type pdf)
 <use 01_domain_data_model.pdf>
-Package pdftex.def Info: 01_domain_data_model.pdf  used on input line 370.
+Package pdftex.def Info: 01_domain_data_model.pdf  used on input line 372.
 (pdftex.def)             Requested size: 407.66833pt x 186.9022pt.
- [12 <./01_domain_data_model.pdf>]
-<04_sequence_global_duel_vote_token.pdf, id=346, 470.553pt x 532.71924pt>
+ [14 <./01_domain_data_model.pdf>]
+<04_sequence_global_duel_vote_token.pdf, id=354, 470.553pt x 532.71924pt>
 File: 04_sequence_global_duel_vote_token.pdf Graphic file (type pdf)
 <use 04_sequence_global_duel_vote_token.pdf>
-Package pdftex.def Info: 04_sequence_global_duel_vote_token.pdf  used on input line 397.
+Package pdftex.def Info: 04_sequence_global_duel_vote_token.pdf  used on input line 399.
 (pdftex.def)             Requested size: 430.31812pt x 487.18945pt.
- [13 <./04_sequence_global_duel_vote_token.pdf>] [14]
+ [15] [16 <./04_sequence_global_duel_vote_token.pdf>] [17]
 Chapter 5.
-<feedback-wall.jpeg, id=381, 4047.12pt x 3035.34pt>
+<feedback-wall.jpeg, id=393, 4047.12pt x 3035.34pt>
 File: feedback-wall.jpeg Graphic file (type jpg)
 <use feedback-wall.jpeg>
-Package pdftex.def Info: feedback-wall.jpeg  used on input line 430.
+Package pdftex.def Info: feedback-wall.jpeg  used on input line 432.
 (pdftex.def)             Requested size: 172.13pt x 129.0813pt.
-[15
-
- <./feedback-wall.jpeg>] [16] [17]
-Chapter 6.
-<init_map.png, id=398, 1210.5225pt x 2631.8325pt>
-File: init_map.png Graphic file (type png)
-<use init_map.png>
-Package pdftex.def Info: init_map.png  used on input line 538.
-(pdftex.def)             Requested size: 90.5922pt x 196.93718pt.
-<init_submit.png, id=399, 1210.5225pt x 2631.8325pt>
-File: init_submit.png Graphic file (type png)
-<use init_submit.png>
-Package pdftex.def Info: init_submit.png  used on input line 543.
-(pdftex.def)             Requested size: 90.5922pt x 196.93718pt.
-<init_profile.png, id=400, 1210.5225pt x 2631.8325pt>
-File: init_profile.png Graphic file (type png)
-<use init_profile.png>
-Package pdftex.def Info: init_profile.png  used on input line 548.
-(pdftex.def)             Requested size: 90.5922pt x 196.93718pt.
 [18
 
+ <./feedback-wall.jpeg>] [19] [20] [21]
+Chapter 6.
+<init_map.png, id=415, 1210.5225pt x 2631.8325pt>
+File: init_map.png Graphic file (type png)
+<use init_map.png>
+Package pdftex.def Info: init_map.png  used on input line 540.
+(pdftex.def)             Requested size: 90.5922pt x 196.93718pt.
+<init_submit.png, id=416, 1210.5225pt x 2631.8325pt>
+File: init_submit.png Graphic file (type png)
+<use init_submit.png>
+Package pdftex.def Info: init_submit.png  used on input line 545.
+(pdftex.def)             Requested size: 90.5922pt x 196.93718pt.
+<init_profile.png, id=417, 1210.5225pt x 2631.8325pt>
+File: init_profile.png Graphic file (type png)
+<use init_profile.png>
+Package pdftex.def Info: init_profile.png  used on input line 550.
+(pdftex.def)             Requested size: 90.5922pt x 196.93718pt.
+[22
+
 ]
-<pre_upload.PNG, id=406, 1183.42125pt x 2565.585pt>
+<pre_upload.PNG, id=422, 1183.42125pt x 2565.585pt>
 File: pre_upload.PNG Graphic file (type png)
 <use pre_upload.PNG>
-Package pdftex.def Info: pre_upload.PNG  used on input line 567.
+Package pdftex.def Info: pre_upload.PNG  used on input line 569.
 (pdftex.def)             Requested size: 135.89174pt x 294.58588pt.
-<post_upload.PNG, id=407, 1183.42125pt x 2565.585pt>
+<post_upload.PNG, id=423, 1183.42125pt x 2565.585pt>
 File: post_upload.PNG Graphic file (type png)
 <use post_upload.PNG>
-Package pdftex.def Info: post_upload.PNG  used on input line 572.
+Package pdftex.def Info: post_upload.PNG  used on input line 574.
 (pdftex.def)             Requested size: 135.89174pt x 294.58588pt.
- [19 <./init_map.png> <./init_submit.png> <./init_profile.png>]
-<pre_vote.PNG, id=416, 1183.42125pt x 2565.585pt>
+ [23 <./init_map.png> <./init_submit.png> <./init_profile.png>]
+<pre_vote.PNG, id=432, 1183.42125pt x 2565.585pt>
 File: pre_vote.PNG Graphic file (type png)
 <use pre_vote.PNG>
-Package pdftex.def Info: pre_vote.PNG  used on input line 591.
+Package pdftex.def Info: pre_vote.PNG  used on input line 593.
 (pdftex.def)             Requested size: 135.89174pt x 294.58588pt.
-<mid_vote.PNG, id=417, 1183.42125pt x 2565.585pt>
+<mid_vote.PNG, id=433, 1183.42125pt x 2565.585pt>
 File: mid_vote.PNG Graphic file (type png)
 <use mid_vote.PNG>
-Package pdftex.def Info: mid_vote.PNG  used on input line 596.
+Package pdftex.def Info: mid_vote.PNG  used on input line 598.
 (pdftex.def)             Requested size: 135.89174pt x 294.58588pt.
-<post_vote.PNG, id=418, 1183.42125pt x 2565.585pt>
+<post_vote.PNG, id=434, 1183.42125pt x 2565.585pt>
 File: post_vote.PNG Graphic file (type png)
 <use post_vote.PNG>
-Package pdftex.def Info: post_vote.PNG  used on input line 601.
+Package pdftex.def Info: post_vote.PNG  used on input line 603.
 (pdftex.def)             Requested size: 135.89174pt x 294.58588pt.
- [20 <./pre_upload.PNG> <./post_upload.PNG>]
-<pre_private.PNG, id=424, 1183.42125pt x 2565.585pt>
+ [24 <./pre_upload.PNG> <./post_upload.PNG>] [25 <./pre_vote.PNG> <./mid_vote.PNG> <./post_vote.PNG>]
+<pre_private.PNG, id=446, 1183.42125pt x 2565.585pt>
 File: pre_private.PNG Graphic file (type png)
 <use pre_private.PNG>
-Package pdftex.def Info: pre_private.PNG  used on input line 622.
+Package pdftex.def Info: pre_private.PNG  used on input line 624.
 (pdftex.def)             Requested size: 135.89174pt x 294.58588pt.
-<post_private1.PNG, id=425, 1183.42125pt x 2565.585pt>
+<post_private1.PNG, id=447, 1183.42125pt x 2565.585pt>
 File: post_private1.PNG Graphic file (type png)
 <use post_private1.PNG>
-Package pdftex.def Info: post_private1.PNG  used on input line 628.
+Package pdftex.def Info: post_private1.PNG  used on input line 630.
 (pdftex.def)             Requested size: 135.89174pt x 294.58588pt.
-<post_private2.PNG, id=426, 1183.42125pt x 2565.585pt>
+<post_private2.PNG, id=448, 1183.42125pt x 2565.585pt>
 File: post_private2.PNG Graphic file (type png)
 <use post_private2.PNG>
-Package pdftex.def Info: post_private2.PNG  used on input line 634.
+Package pdftex.def Info: post_private2.PNG  used on input line 636.
 (pdftex.def)             Requested size: 135.89174pt x 294.58588pt.
- [21 <./pre_vote.PNG> <./mid_vote.PNG> <./post_vote.PNG>] [22 <./pre_private.PNG> <./post_private1.PNG> <./post_private2.PNG>]
+ [26 <./pre_private.PNG> <./post_private1.PNG> <./post_private2.PNG>] [27]
 Chapter 7.
-[23
+[28
 
-] [24] [25] [26
+] [29] [30] [31
 
 ]
 Appendix A.
-[27
+[32
 
 {/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-<lock_notif.PNG, id=481, 587.19376pt x 1270.7475pt>
+<lock_notif.PNG, id=502, 587.19376pt x 1270.7475pt>
 File: lock_notif.PNG Graphic file (type png)
 <use lock_notif.PNG>
-Package pdftex.def Info: lock_notif.PNG  used on input line 765.
+Package pdftex.def Info: lock_notif.PNG  used on input line 767.
 (pdftex.def)             Requested size: 144.95303pt x 313.69174pt.
-<vote.PNG, id=482, 587.19376pt x 1270.7475pt>
+<vote.PNG, id=503, 587.19376pt x 1270.7475pt>
 File: vote.PNG Graphic file (type png)
 <use vote.PNG>
-Package pdftex.def Info: vote.PNG  used on input line 772.
+Package pdftex.def Info: vote.PNG  used on input line 774.
 (pdftex.def)             Requested size: 144.95303pt x 313.69174pt.
-<vote_exhaust.PNG, id=483, 587.19376pt x 1270.7475pt>
+<vote_exhaust.PNG, id=504, 587.19376pt x 1270.7475pt>
 File: vote_exhaust.PNG Graphic file (type png)
 <use vote_exhaust.PNG>
-Package pdftex.def Info: vote_exhaust.PNG  used on input line 779.
+Package pdftex.def Info: vote_exhaust.PNG  used on input line 781.
 (pdftex.def)             Requested size: 144.95303pt x 313.69174pt.
-<save_quest.PNG, id=484, 587.19376pt x 1270.7475pt>
+<save_quest.PNG, id=505, 587.19376pt x 1270.7475pt>
 File: save_quest.PNG Graphic file (type png)
 <use save_quest.PNG>
-Package pdftex.def Info: save_quest.PNG  used on input line 793.
+Package pdftex.def Info: save_quest.PNG  used on input line 795.
 (pdftex.def)             Requested size: 144.95303pt x 313.69174pt.
-<create_city.PNG, id=485, 587.19376pt x 1270.7475pt>
+<create_city.PNG, id=506, 587.19376pt x 1270.7475pt>
 File: create_city.PNG Graphic file (type png)
 <use create_city.PNG>
-Package pdftex.def Info: create_city.PNG  used on input line 800.
+Package pdftex.def Info: create_city.PNG  used on input line 802.
 (pdftex.def)             Requested size: 144.95303pt x 313.69174pt.
-<map_city.PNG, id=486, 587.19376pt x 1270.7475pt>
+<map_city.PNG, id=507, 587.19376pt x 1270.7475pt>
 File: map_city.PNG Graphic file (type png)
 <use map_city.PNG>
-Package pdftex.def Info: map_city.PNG  used on input line 807.
+Package pdftex.def Info: map_city.PNG  used on input line 809.
 (pdftex.def)             Requested size: 144.95303pt x 313.69174pt.
-<empty_profile.PNG, id=487, 587.19376pt x 1270.7475pt>
+<empty_profile.PNG, id=508, 587.19376pt x 1270.7475pt>
 File: empty_profile.PNG Graphic file (type png)
 <use empty_profile.PNG>
-Package pdftex.def Info: empty_profile.PNG  used on input line 819.
+Package pdftex.def Info: empty_profile.PNG  used on input line 821.
 (pdftex.def)             Requested size: 181.18439pt x 392.0856pt.
 
-Underfull \hbox (badness 2762) in paragraph at lines 820--820
+Underfull \hbox (badness 2762) in paragraph at lines 822--822
 []\OT1/cmr/m/n/10.95 (+20) (a) |User pro-file screen dis-play-ing
  []
 
-<edit_profile.PNG, id=488, 587.19376pt x 1270.7475pt>
+<edit_profile.PNG, id=509, 587.19376pt x 1270.7475pt>
 File: edit_profile.PNG Graphic file (type png)
 <use edit_profile.PNG>
-Package pdftex.def Info: edit_profile.PNG  used on input line 825.
+Package pdftex.def Info: edit_profile.PNG  used on input line 827.
 (pdftex.def)             Requested size: 181.18439pt x 392.0856pt.
-<share.PNG, id=489, 587.19376pt x 1270.7475pt>
+<share.PNG, id=510, 587.19376pt x 1270.7475pt>
 File: share.PNG Graphic file (type png)
 <use share.PNG>
-Package pdftex.def Info: share.PNG  used on input line 837.
+Package pdftex.def Info: share.PNG  used on input line 839.
 (pdftex.def)             Requested size: 181.18439pt x 392.0856pt.
-<friend.PNG, id=490, 587.19376pt x 1270.7475pt>
+<friend.PNG, id=511, 587.19376pt x 1270.7475pt>
 File: friend.PNG Graphic file (type png)
 <use friend.PNG>
-Package pdftex.def Info: friend.PNG  used on input line 843.
+Package pdftex.def Info: friend.PNG  used on input line 845.
 (pdftex.def)             Requested size: 181.18439pt x 392.0856pt.
-[28] [29 <./lock_notif.PNG> <./vote.PNG> <./vote_exhaust.PNG>] [30 <./save_quest.PNG> <./create_city.PNG> <./map_city.PNG>] [31 <./empty_profile.PNG> <./edit_profile.PNG>] [32 <./share.PNG> <./friend.PNG>] (./main.aux)
+[33] [34 <./lock_notif.PNG> <./vote.PNG> <./vote_exhaust.PNG>] [35 <./save_quest.PNG> <./create_city.PNG> <./map_city.PNG>] [36 <./empty_profile.PNG> <./edit_profile.PNG>] [37 <./share.PNG> <./friend.PNG>] (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -1173,18 +1175,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33572 strings out of 467525
- 631152 string characters out of 5418983
- 1475592 words of memory out of 5000000
- 61708 multiletter control sequences out of 15000+600000
+ 33619 strings out of 467525
+ 632084 string characters out of 5418983
+ 1474946 words of memory out of 5000000
+ 61746 multiletter control sequences out of 15000+600000
  645526 words of font info for 183 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,13n,103p,1329b,1267s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (39 pages, 57393403 bytes).
+Output written on main.pdf (44 pages, 57395382 bytes).
 PDF statistics:
- 740 PDF objects out of 1000 (max. 8388607)
- 593 compressed objects within 6 object streams
- 114 named destinations out of 1000 (max. 500000)
+ 763 PDF objects out of 1000 (max. 8388607)
+ 610 compressed objects within 7 object streams
+ 119 named destinations out of 1000 (max. 500000)
  50129 words of extra memory for PDF output out of 51595 (max. 10000000)
 
