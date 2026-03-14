@@ -194,31 +194,6 @@
       \field{pages}{7\bibrangedash 11}
       \range{pages}{5}
     \endentry
-    \entry{Hyper}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=2b7074e8ec6efcee895356f6b68c07c3}{%
-           family={Hyper},
-           familyi={H\bibinitperiod}}}%
-      }
-      \strng{namehash}{2b7074e8ec6efcee895356f6b68c07c3}
-      \strng{fullhash}{2b7074e8ec6efcee895356f6b68c07c3}
-      \strng{fullhashraw}{2b7074e8ec6efcee895356f6b68c07c3}
-      \strng{bibnamehash}{2b7074e8ec6efcee895356f6b68c07c3}
-      \strng{authorbibnamehash}{2b7074e8ec6efcee895356f6b68c07c3}
-      \strng{authornamehash}{2b7074e8ec6efcee895356f6b68c07c3}
-      \strng{authorfullhash}{2b7074e8ec6efcee895356f6b68c07c3}
-      \strng{authorfullhashraw}{2b7074e8ec6efcee895356f6b68c07c3}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{labelnamesource}{author}
-      \field{journaltitle}{Hyper}
-      \verb{urlraw}
-      \verb https://www.hyper-sq.com/
-      \endverb
-      \verb{url}
-      \verb https://www.hyper-sq.com/
-      \endverb
-    \endentry
     \entry{Geocaching}{article}{}{}
       \name{author}{3}{}{%
         {{hash=21cee82d98b8340f1ada9a82c6a42cd1}{%

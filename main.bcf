@@ -2376,18 +2376,22 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">bibfile.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">CYSMN</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">Geocaching</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">Geocaching</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">CYSMN</bcf:citekey>
     <bcf:citekey order="3" intorder="1">Eyespy</bcf:citekey>
     <bcf:citekey order="4" intorder="1">Pokemon</bcf:citekey>
     <bcf:citekey order="5" intorder="1">PokemonBelong</bcf:citekey>
     <bcf:citekey order="6" intorder="1">Viral</bcf:citekey>
     <bcf:citekey order="7" intorder="1">BeReal</bcf:citekey>
     <bcf:citekey order="8" intorder="1">BerealTourism</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">Hyper</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">Pokemon</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">GeoTourism</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">BerealTourism</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">GeoTourism</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">Geocaching</bcf:citekey>
+    <bcf:citekey order="10" intorder="2">CYSMN</bcf:citekey>
+    <bcf:citekey order="10" intorder="3">Eyespy</bcf:citekey>
+    <bcf:citekey order="10" intorder="4">Pokemon</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">Viral</bcf:citekey>
+    <bcf:citekey order="11" intorder="2">BeReal</bcf:citekey>
+    <bcf:citekey order="11" intorder="3">BerealTourism</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
